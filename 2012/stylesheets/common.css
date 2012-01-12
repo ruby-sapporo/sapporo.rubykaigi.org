@@ -1,0 +1,202 @@
+/*--- default ----------------------------------------------*/
+
+* {
+	color: #ee3706;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-family: "Quicksand", "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background: url(../images/background.png) repeat;
+  width: 100%;
+  height: 100%;
+	line-height: 150%;
+  margin-top: 10px;
+  padding: 0 0 60px 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #fcd7cd;
+}
+
+a:hover {
+	color: #f69b82;
+  text-decoration: underline;
+}
+
+a:link img,
+a:visited img,
+a:hover img,
+a:active img {
+  border: none;
+	text-decoration: none;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+
+address {
+	font-style:normal;
+}
+	
+h2,
+h3 {
+	margin: 30px 0 10px 0;
+	font-family: 'Crete Round', serif;
+	letter-spacing: 2px;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+  list-style: none; }
+
+ol {
+  padding: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+pre {
+  padding: 20px;
+  border: 3px solid #edcfd1;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #edcfd1;
+}
+
+table tr,
+table tr th,
+table tr td {
+  padding: 10px;
+  border: 1px solid #edcfd1;
+  border-collapse: collapse;
+}
+
+th {
+  background: #edcfd1;
+}
+
+address {
+	font-style:normal;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+  list-style: none; }
+
+ol {
+  padding: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+pre {
+  padding: 20px;
+  border: 3px solid #edcfd1;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #edcfd1;
+}
+
+table tr,
+table tr th,
+table tr td {
+  padding: 10px;
+  border: 1px solid #edcfd1;
+  border-collapse: collapse;
+}
+
+th {
+  background: #edcfd1;
+}
+
+/*--- id, class ----------------------------------------------*/
+
+#wrapper {
+  width: 980px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.fright {
+  float: right;
+}
+
+.fleft {
+  float: left;
+}
+
+.tright {
+  text-align: right;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#information {
+	background: #293745;
+	width: 940px;
+	padding: 20px;
+}
+
+#information p {
+	color: #fcd7cd;
+}
+
+.button {
+  clear: both;
+  display: inline-block;
+}
+
+.facebook {
+	margin: 1px 3px 0 0;
+	float: left;
+}
+
+.social-widgets {
+  margin-top: 5px;
+	float: left;
+}
+
+#copyright {
+	font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+	font-size: 70%;
+  padding: 5px 0;
+  text-align: right;
+}
