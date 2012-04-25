@@ -144,6 +144,35 @@ th {
 	margin: 0 auto;
 }
 
+p.btn a:link,
+p.btn a:visited,
+p.btn a:hover,
+p.btn a:active {
+	text-decoration:none;
+	color: #fff;
+}
+
+p.btn a {
+	display: block;
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+	
+p.btn a:link,
+p.btn a:visited {
+	background: #ee3706;
+}
+	
+p.btn a:hover,
+p.btn a:active {
+	background: #f15f38;
+	position:relative;
+}
+
 .fright {
   float: right;
 }
@@ -199,6 +228,23 @@ th {
   color: #fcd7cd;
   width: 300px;
   display: inline-block;
+}
+
+#links {
+  float: left;
+  width: 500px;
+}
+
+#news {
+  padding: 10px;
+  border: 5px solid rgba(255,255,255,0.2);
+  float: right;
+  width: 400px;
+}
+
+#news h2 {
+  margin-top: 10px;
+  color: #eff6f6;
 }
 
 .button {
