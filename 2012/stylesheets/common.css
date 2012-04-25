@@ -180,6 +180,27 @@ th {
 	color: #fcd7cd;
 }
 
+#information dl {
+  padding 0;
+  width: 480px;
+}
+
+#information dt {
+  vertical-align: top;
+  font-size: 80%;
+  font-weight: bold;
+  color: #eff6f6;
+  width: 170px;
+  display: inline-block;
+}
+
+#information dd {
+  font-size: 80%;
+  color: #fcd7cd;
+  width: 300px;
+  display: inline-block;
+}
+
 .button {
   clear: both;
   display: inline-block;
