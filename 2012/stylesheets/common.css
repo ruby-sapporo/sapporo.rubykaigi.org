@@ -48,7 +48,7 @@ article, aside, dialog, figure, footer, header, hgroup, menu, nav, section{
 address {
 	font-style:normal;
 }
-	
+
 h2,
 h3 {
 	margin: 30px 0 10px 0;
@@ -161,12 +161,12 @@ p.btn a {
 	font-size: 18px;
 	font-weight: bold;
 }
-	
+
 p.btn a:link,
 p.btn a:visited {
 	background: #ee3706;
 }
-	
+
 p.btn a:hover,
 p.btn a:active {
 	background: #f15f38;
