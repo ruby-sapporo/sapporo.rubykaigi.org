@@ -117,7 +117,11 @@ strong {
 
 pre {
   padding: 20px;
-  border: 3px solid #edcfd1;
+  border: 3px solid #d4d7da;
+}
+
+pre code {
+	color: #293745;
 }
 
 table {
