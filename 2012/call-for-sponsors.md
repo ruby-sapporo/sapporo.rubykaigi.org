@@ -11,7 +11,7 @@ title: Sapporo RubyKaigi 2012 Sponsorship Application (札幌Ruby会議2012ス�
 
 [詳しくはこちら](sprk2012prospectus.pdf "札幌Ruby会議2012 スポンサーシップのご案内")
 
-**(2012年6月7日 締め切り)**
+**2012年6月7日 締め切り**
 
 ### 請求書情報につきまして
 
