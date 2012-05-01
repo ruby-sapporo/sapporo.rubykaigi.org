@@ -3,7 +3,7 @@ layout: content
 title: Call for Sponsors (札幌Ruby会議2012スポンサーシップお申し込み)
 ---
 
-<h1>Sapporo RubyKaigi 2012 Sponsorship Application<span>(札幌Ruby会議2012スポンサーシップお申し込み)<span></h1>
+#Sapporo RubyKaigi 2012 Sponsorship Application<span>(札幌Ruby会議2012スポンサーシップお申し込み)<span>
 
 Please fill in the following and mail it to sapporo2012@rubykaigi.org.
 
