@@ -69,6 +69,7 @@ ol {
 }
 
 strong {
+  font-size: 120%;
   font-weight: bold;
 }
 
@@ -219,7 +220,8 @@ p.btn a:active {
 	background: #293745;
   height: 80px;
   line-height: 80px;
-  font-size: 140%;
+  font-weight: bold
+  font-size: 180%;
   color: #d4d7da;
   text-align: center;
   margin-bottom: 30px;
@@ -227,12 +229,17 @@ p.btn a:active {
 
 #content h1 span {
   margin-left: 20px;
-  font-size: 60%;
+  font-size: 50%;
   color: #d4d7da;
 }
 
+#content h2,
 #content h3 {
+  font-weight: bold;
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#content h3 {
   font-size: 90%;
   margin: 10px 20px 2px 20px;
 }
