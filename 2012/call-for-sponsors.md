@@ -47,7 +47,7 @@ sapporo2012@rubykaigi.org (Public Relations Coordinator: Mr. Maeda).
     Subject: sprk2012 sponsor application
     To: sapporo2012@rubykaigi.org
     
-        
+    
     御社名 (Company Name):
     
     スポンサー種別 (Plans):
