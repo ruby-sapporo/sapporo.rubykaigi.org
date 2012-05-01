@@ -1,11 +1,11 @@
 ---
 layout: content
-title: Sapporo RubyKaigi 2012 Sponsorship Application (札幌Ruby会議2012スポンサーシップお申し込み)
+title: Call for Sponsors (札幌Ruby会議2012スポンサーシップお申し込み)
 ---
 
-#Sapporo RubyKaigi 2012 Sponsorship Application<span>(札幌Ruby会議2012スポンサーシップお申し込み)<span>
+#Call for Sponsors<span>(札幌Ruby会議2012スポンサーシップお申し込み)<span>
 
-## お申し込み方法 (日本語)
+## 札幌Ruby会議2012スポンサーシップお申し込み (日本語)
 
 下記の書式にしたがってメールを sapporo2012@rubykaigi.org までお送りください。
 
@@ -25,7 +25,7 @@ title: Sapporo RubyKaigi 2012 Sponsorship Application (札幌Ruby会議2012ス�
 
 スポンサーシップのお申し込みに関するお問い合わせは sapporo2012@rubykaigi.org (渉外担当: 前田) までお願いします。
 
-## How to entry (English)
+## Sapporo RubyKaigi 2012 Sponsorship Application (English)
 
 Please fill in the following and mail it to sapporo2012@rubykaigi.org.
 

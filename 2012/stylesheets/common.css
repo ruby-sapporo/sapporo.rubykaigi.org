@@ -239,6 +239,12 @@ p.btn a:active {
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
+#content h2 {
+  border-left: 10px solid #edcfd1;
+  padding-left: 6px;
+  margin-bottom: 10px;
+  font-size: 140%; }
+
 #content h3 {
   font-size: 90%;
   margin: 10px 20px 2px 20px;
