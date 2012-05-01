@@ -160,6 +160,7 @@ p.btn a {
 	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
+  margin-bottom: 20px;
 }
 
 p.btn a:link,
@@ -197,6 +198,62 @@ p.btn a:active {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+#content {
+	background: rgba(255,255,255,0.6);
+	width: 940px;
+	padding: 20px;
+}
+
+#content p {
+	color: #293745;
+}
+
+#content strong {
+  display: block;
+  text-align: center;
+}
+
+#content h1 {
+	background: #293745;
+  height: 80px;
+  line-height: 80px;
+  font-size: 140%;
+  color: #d4d7da;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#content h1 span {
+  margin-left: 20px;
+  font-size: 60%;
+  color: #d4d7da;
+}
+
+#content h3 {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 90%;
+  margin: 10px 20px 2px 20px;
+}
+
+#content h3 + p {
+  margin: 0 20px;
+  font-size: 80%;
+}
+
+#content a:before {
+  content: "» ";
+}
+
+#content a:link,
+#content a:visited,
+#content a:active {
+  color: #293745;
+}
+
+#content a:hover {
+  text-decoration: underline;
 }
 
 #information {
