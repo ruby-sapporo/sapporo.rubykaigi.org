@@ -11,7 +11,7 @@ title: Call for Sponsors (札幌Ruby会議2012スポンサーシップお申し�
 
 [詳しくはこちら](assets/sprk2012prospectus.pdf "札幌Ruby会議2012 スポンサーシップのご案内")
 
-**2012年6月7日 締め切り**
+**2012年6月8日 締め切り**
 
 ### 請求書情報につきまして
 
@@ -31,7 +31,7 @@ Please fill in the following and mail it to sapporo2012@rubykaigi.org.
 
 [Details](assets/sprk2012prospectus_en.pdf "Call for Sponsors of Sapporo RubyKaigi 2012")
 
-**Submission Deadline: 24:00 June 7, 2012 (JST)**
+**Submission Deadline: 24:00 June 8, 2012 (JST)**
 
 ### About the invoicing information
 
