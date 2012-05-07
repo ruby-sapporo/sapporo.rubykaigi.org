@@ -140,4 +140,4 @@ sapporo2012@rubykaigi.org (Public Relations Coordinator: Mr. Maeda).
     　
     　
     　
-<a href="/">Home</a>
+<a href="/2012">Home</a>
