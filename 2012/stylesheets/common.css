@@ -73,11 +73,6 @@ strong {
   font-weight: bold;
 }
 
-pre {
-  padding: 20px;
-  border: 3px solid #edcfd1;
-}
-
 table {
   border-collapse: collapse;
   border: 1px solid #edcfd1;
@@ -115,13 +110,22 @@ strong {
   font-weight: bold;
 }
 
-pre {
+#format {
   padding: 20px;
-  border: 3px solid #d4d7da;
+  border: 3px solid #D4D7DA;
 }
 
-pre code {
+#format * {
 	color: #293745;
+}
+
+#format .bottomItem {
+  margin-bottom: 70px;
+}
+
+#content #format strong {
+  font-size: 100%;
+  text-align: left;
 }
 
 table {
