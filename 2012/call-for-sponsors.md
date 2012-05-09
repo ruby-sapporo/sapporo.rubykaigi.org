@@ -49,95 +49,53 @@ sapporo2012@rubykaigi.org (Public Relations Coordinator: Mr. Maeda).
 
 ## 書式 (Format)
 
-    Subject: sprk2012 sponsor application
-    To: sapporo2012@rubykaigi.org
-    
-    
-    御社名 (Company Name):
-    
-    スポンサー種別 (Plans):
-    * 該当するものだけを残して他を削除してください
-    * Please select one of the following and remove the other options
-    
-    1. Ruby [300,000 JPY]
-    2. Platinum [100,000 JPY]
-    3. Gold [50,000 JPY]
-    
-    担当者様氏名 (Contact Name):
-    
-    
-    
-    担当者様メールアドレス (Contact Email):
-    
-    
-    
-    担当者様電話番号 (Contact Phone Number):
-    
-    
-    
-    請求書送付先郵便番号 (Billing Postal Code):
-    
-    
-    
-    請求書送付先住所 (Billing Address):
-    
-    
-    
-    請求書送付先宛名 (Billing Name):
-    
-    
-    
-    請求日 (Billing Date):
-    * ご指定なき場合は2012年9月30日となります (If not specified, 2012-09-30)
-    
-    指定なし (Not Specified)
-    
-    
-    請求期日 (Due Date):
-    * ご指定なき場合は2012年11月30日となります (If not specified, 2012-11-30)
-    
-    指定なし (Not Specified)
-    
-    
-    振込先口座 (Recipient Bank Account)
-    * 該当するものだけを残して他を削除してください
-    * Please select one of the following and remove the other options
-    
-    1. 札幌Ruby会議実行委員会 [振込先口座に法人格が必須ではない場合]
-      Sapporo RubyKaigi Organizers (Please select this option if you don't
-      need to transfer to a corporate body)
-    2. 一般社団法人 日本Rubyの会 [振込先口座に法人格が必須の場合]
-      General Incorporated Association Ruby no Kai (Please select this
-      option if you need to transfer to a corporate body)
-    
-    
-    Webサイトに掲載する御社名[日本語]
-    (Company Name in Japanese to be published on our website; optional):
-    
-    
-    
-    Webサイトに掲載する御社名[英語]
-    (Company Name in English to be published on our website):
-    
-    
-    
-    御社Webサイトリンク先 (Company Website URL):
-    
-    
-    
-    スポンサーPR文[日本語] (Sponsorship Copy in Japanese; optional):
-    * Rubyスポンサー: 400文字程度, Platinum スポンサー: 140文字程度
-    * Ruby: 400 Characters, Platinum: 140 Characters
-    
-    
-    
-    スポンサーPR文[英語] (Sponsorship Copy in English):
-    * Rubyスポンサー: 400単語程度, Platinum スポンサー: 250単語程度
-    * Ruby: 400 Words, Platinum: 250 Words
-    
-    
-    連絡事項 (Message to us):
-    　
-    　
+<div id="format">
+<p class="bottomItem"><strong>Subject: sprk2012 sponsor application<br>
+To: sapporo2012@rubykaigi.org</strong></p>
+<p class="bottomItem"><strong>御社名 (Company Name):</strong></p>
+<p><strong>スポンサー種別 (Plans):</strong></p>
+<ul>
+<li>該当するものだけを残して他を削除してくさい</li>
+<li>Please select one of the following and remove the other options</li>
+</ul>
+<ol class="bottomItem">
+<li><del datetime="2012-05-08T15:00:00+09">Ruby [300,000 JPY]</del> (CLOSED)</li>
+<li>Platinum [100,000 JPY] </li>
+<li>Gold [50,000 JPY]</li>
+</ol>
+<p class="bottomItem"><strong>担当者様氏名 (Contact Name):</strong></p>
+<p class="bottomItem"><strong>担当者様メールアドレス (Contact Email):</strong></p>
+<p class="bottomItem"><strong>担当者様電話番号 (Contact Phone Number):</strong></p>
+<p class="bottomItem"><strong>請求書送付先郵便番号 (Billing Postal Code):</strong></p>
+<p class="bottomItem"><strong>請求書送付先住所 (Billing Address):</strong></p>
+<p class="bottomItem"><strong>請求書送付先宛名 (Billing Name):</strong></p>
+<p><strong>請求日 (Billing Date):</strong><br>
+* ご指定なき場合は2012年9月30日となります (If not specified, 2012-09-30)</p>
+<p class="bottomItem">指定なし (Not Specified)</p>
+<p><strong>請求期日 (Due Date):</strong><br>
+* ご指定なき場合は2012年11月30日となります (If not specified, 2012-11-30)</p>
+<p class="bottomItem">指定なし (Not Specified)</p>
+<p><strong>振込先口座 (Recipient Bank Account)</strong><br>
+* 該当するものだけを残して他を削除してください<br>
+* Please select one of the following and remove the other options</p>
+<ol class="bottomItem">
+<li>札幌Ruby会議実行委員会 [振込先口座に法人格が必須ではない場合]<br>
+Sapporo RubyKaigi Organizers (Please select this option if you don't need to transfer to a corporate body)</li>
+<li>一般社団法人 日本Rubyの会 [振込先口座に法人格が必須の場合]<br>
+General Incorporated Association Ruby no Kai (Please select this option if you need to transfer to a corporate body)</li>
+</ol>
+<p class="bottomItem"><strong>Webサイトに掲載する御社名[日本語]<br>
+(Company Name in Japanese to be published on our website; optional):</strong></p>
+<p class="bottomItem"><strong>Webサイトに掲載する御社名[英語]<br>
+(Company Name in English to be published on our website):</strong></p>
+<p class="bottomItem"><strong>御社Webサイトリンク先(Company Website URL):</strong></p>
+<p class="bottomItem"><strong>スポンサーPR文[日本語] (Sponsorship Copy in Japanese; optional):</strong><br>
+* Rubyスポンサー: 400文字程度, Platinum スポンサー: 140文字程度<br>
+* Ruby: 400 Characters, Platinum: 140 Characters</p>
+<p class="bottomItem"><strong>スポンサーPR文[英語] (Sponsorship Copy in English):</strong><br>
+* Rubyスポンサー: 400単語程度, Platinum スポンサー: 250単語程度<br>
+* Ruby: 400 Words, Platinum: 250 Words</p>
+<p class="bottomItem"><strong>連絡事項 (Message to us):</strong></p>
+</div>
     　
 <a href="/2012">Home</a>
