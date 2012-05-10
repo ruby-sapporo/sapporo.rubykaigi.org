@@ -19,7 +19,7 @@ title: Call for Sponsors (札幌Ruby会議2012スポンサーシップお申し�
 
 ### ロゴデータにつきまして
 
-企業ロゴのデータ、利用ガイドライン等は添付するか、別途 sapporo2012@rubykaigi.org 宛にお送りください。
+企業ロゴのデータ(ai、eps、svg等のベクターファイル)、利用ガイドライン等は添付するか、別途 sapporo2012@rubykaigi.org 宛にお送りください。
 
 ### その他のお問い合わせ
 
@@ -39,7 +39,7 @@ The invoice will have 札幌Ruby会議2012実行委員会 (Sapporo RubyKaigi 201
 
 ### About the logo
 
-For sending the logo, please attach the logo guidelines, or send it as
+For sending the logo(vector files ai, eps, svg, etc.), please attach the logo guidelines, or send it as
 a separate email to sapporo2012@rubykaigi.org.
 
 ### Other Questions
