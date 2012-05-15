@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: 2012content
 title: Call for Sponsors (札幌Ruby会議2012スポンサーシップお申し込み)
 ---
 
