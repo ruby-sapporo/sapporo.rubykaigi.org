@@ -325,6 +325,21 @@ p.btn a:active {
   color: #eff6f6;
 }
 
+#cfp {
+  font-size: 80%;
+  margin-bottom: 30px;
+}
+
+#cfp p {
+  line-height: 150%;
+  margin: 7px;
+}
+
+#cfp hr {
+  border: 0;
+  border-bottom: 1px dashed #fff;
+}
+
 .button {
   clear: both;
   display: inline-block;
