@@ -1,0 +1,280 @@
+@charset "utf-8";
+/*
+/* 
+ * HTML5 ✰ Boilerplate	
+ *
+ * 以下は、クロスブラウザースタイリングに関する多くのリサーチの結果です。
+ * Nicolas Gallagher、Jonathan Neal、
+ * Kroc Camen および H5BP 部門のコミュニティとチームの貢献に対してここに心より感謝申し上げます。
+ *
+ * この CSS について詳しくは、h5bp.com/css を参照してください
+ * 
+ * Dreamweaver の変更点 : 
+ * 1. 選択ハイライトをコメントアウトしました
+ * 2. メディアクエリセクションを削除しました (別のファイルに独自のセクションを追加)
+ *
+ * ==|== 正規化 ==========================================================
+ */
+
+
+/* =============================================================================
+   HTML5 表示定義
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+/* =============================================================================
+   ベース
+   ========================================================================== */
+
+/*
+ * 1. 本文のフォントサイズの設定に em 単位を使用している場合、IE6/7 のテキストの正常でないサイズ変更を修正
+ * 2. IE 以外での垂直スクロールバーの使用を強制
+ * 3. ユーザーズームを無効にしないと、デバイス方向の変更で iOS テキストサイズが調整されないように修正 : h5bp.com/g
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+/* 
+ * 選択ハイライトでテキストシャドウを削除 : h5bp.com/I
+ * これらの選択の宣言は、個々に行われる必要があります
+ * 関連項目 : ホットピンク (または、デザインに合わせて背景色をカスタマイズ)
+ */
+
+/* Dreamweaver : 選択ハイライトをカスタマイズする場合は、これらを非コメント化します
+ *::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+ *::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+ */
+
+/* =============================================================================
+   リンク
+   ========================================================================== */
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+
+/* すべてのブラウザーで、フォーカスの設定時およびホバー時の読みやすさを改善 : h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   テキスト編集
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* タイプライター字体ファミリーを再宣言 : h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* すべてのブラウザーでのプリフォーマットテキストの読みやすさを改善 */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* 行の高さに影響を与えずに、サブスクリプトおよびスーパースクリプトコンテンツを配置 : h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+
+/* =============================================================================
+   リスト
+   ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   埋め込まれたコンテンツ
+   ========================================================================== */
+
+/*
+ * 1. IE7 で拡大/縮小する際の画質を改善 : h5bp.com/d
+ * 2. イメージコンテナでのイメージとボーダーとの間の隙間を削除 : h5bp.com/e
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/*
+ * IE9 で非表示にならないオーバーフローを修正
+ */
+
+svg:not(:root) { overflow: hidden; }
+
+
+/* =============================================================================
+   図
+   ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+   フォーム
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* “ラベル” が、関連付けられたフォームエレメントにフォーカスをシフトするように指定 */
+label { cursor: pointer; }
+
+/* 
+ * 1. IE6/7/8/9 の継承しないカラーを修正
+ * 2. IE6/7 正常に表示されない整列を修正
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+/*
+ * 1. すべてのブラウザーでの継承しないフォントサイズを修正
+ * 2. FF3/4 S5 Chrome のマージンを削除
+ * 3. すべてのブラウザーの縦揃えの一貫した表示を定義
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. FF3/4 に合わせて行の高さを標準に定義 (UA スタイルシートで !important を使用して設定)
+ * 2. IE6/7 で正常に表示されない内部間隔を修正
+ */
+
+button, input { line-height: normal; *overflow: visible; }
+
+/*
+ * IE6/7 のオーバーラップとホワイトスペースの問題を回避するために “テーブル” の内部間隔を再導入
+ */
+
+table button, table input { *overflow: auto; }
+
+/*
+ * 1. クリック可能なフォームエレメントの手の形のカーソルを表示
+ * 2. iOS のクリック可能なフォームエレメントのスタイル付けを許可
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+/*
+ * 一貫したボックスのサイズ変更および外観を保持
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/* 
+ * FF3/4 の内部余白とボーダーを削除 :  h5bp.com/l 
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* 
+ * 1. IE6/7/8/9 のデフォルトの垂直スクロールバーを削除 
+ * 2. 垂直のサイズ変更のみを許可
+ */
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/* フォームの有効期間のカラー */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+   テーブル
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* ==|== プライマリスタイル =====================================================
+   作成者 :  
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==|== 非セマンティックヘルパークラス ========================================
+   このセクションの前にスタイルを定義してください。
+   ========================================================================== */
+
+/* イメージの置き換え用 */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* スクリーンリーダーとブラウザーの両方で非表示 : h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* 視覚的にのみ非表示にする。ただし、スクリーンリーダーでは使用できるようにする : h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* キーボードを介して移動されたエレメントをフォーカスできるようにするために .visuallyhidden クラスを拡張 : h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* スクリーンリーダーで視覚的に非表示 (ただし、レイアウトは保持) */
+.invisible { visibility: hidden; }
+
+/* フロートを含める : h5bp.com/q */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* ==|== スタイルを印刷 =======================================================
+   スタイルを印刷。
+   インラインにして必要な HTTP 接続を回避 : h5bp.com/r
+   ========================================================================== */
+ 
+ @media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* 黒は速く印刷される : h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* イメージのリンクまたは javascript/内部リンクを表示しない */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
