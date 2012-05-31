@@ -18,29 +18,58 @@
 <meta property='og:description' content='Sapporo RubyKaigi 2012 (September 14th-16th, 2012)'>
 <meta content='札幌Ruby会議2012の公式サイト。' name='description'>
 <meta content='札幌 Ruby sprk2012' name='keywords'>
-<meta name="viewport" content="width=1000">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="imagetoolbar" content="no">
 <link href='favicon.ico' rel='icon'>
 <link href='./images/icon.png' rel='apple-touch-icon'>
 <!--[if IE]>
 <script  src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link href="./stylesheets/common.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/2012/javascripts/respond.min.js"></script>
+<link href="/2012/stylesheets/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="/2012/stylesheets/common.css" rel="stylesheet" type="text/css">
+<link href="/2012/stylesheets/layout.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-
-<div id="wrapper">
+<div class="gridContainer clearfix">
+  <header>
+    <div id="headerLogo">
+    	<p><img src="/2012/images/commonLogo.png" alt="Sapporo RubyKaigi 2012 We Code."></p>
+    </div>
+    <div id="headerDate">
+    	<p><img src="/2012/images/commonDate.png" alt="September 14-16th, 2012 at Sapporo Business Innovation Center"></p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="forAttendees.html">For Attendees</a></li><li><a href="sponsors.html">Sponsors</a></li><li><a href="goodies.html">Goodies</a></li>
+      </ul>
+    </nav>
+  </header>
   {{ content }}
   <footer>
-    <div class='social-widgets'>
-      <div class='button facebook'>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="forAttendees.html">For Attendees</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="goodies.html">Goodies</a></li>
+      </ul>
+    </nav>
+    <aside>
+      <ul id="lang">
+        <li><a href="/ja">日本語</a></li>
+        <li><a href="/en">English</a></li>
+      </ul>
+    	<p id="copyright">&copy; 2012 Sapporo RubyKaigi Team</p>
+      <div class='socialBtn'>
         <a name="fb_share" type="box_count"></a>
         <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
       </div>
-      <div class='button'>
+      <div class='socialBtn'>
         <g:plusone size="tall" href="http://sapporo.rubykaigi.org/2012"></g:plusone>
         <script type="text/javascript">
           (function() {
@@ -50,12 +79,11 @@
           })();
         </script>
       </div>
-      <div class='button'>
+      <div class='socialBtn'>
         <a class='twitter-share-button' data-count='vertical' data-url='http://sapporo.rubykaigi.org/2012' href='http://twitter.com/share'>Tweet</a>
         <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
       </div>
-    </div>
-    <p id="copyright">&copy; 2012 Sapporo RubyKaigi Team</p>
+    </aside>
   </footer>
 </div>
 </body>
