@@ -114,9 +114,7 @@ address {
 }
 
 h2,
-h2 a,
-h3,
-h3 a {
+h3 {
   clear: both;
 	margin: 25px 0 10px 0;
 	font-family: 'Crete Round', serif;
@@ -245,9 +243,7 @@ header nav {
     text-align: center;
   }
   h2,
-  h2 a,
-  h3,
-  h3 a {
+  h3 {
     font-weight: bold;
 	  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   }
@@ -258,12 +254,7 @@ header nav {
     font-size: 140%;
   }
   h3 {
-    font-size: 90%;
-    margin: 10px 20px 2px 20px;
-  }
-  h3 + p {
-  margin: 0 20px;
-  font-size: 80%;
+    font-size: 110%;
   }
   a:link,
   a:visited,
@@ -331,6 +322,7 @@ footer {
 }
 
 .backToTop {
+  clear: both;
   text-align: right;
   a {
     padding: 0 0 0 20px;
@@ -389,6 +381,51 @@ footer {
 #team {
   ul li {
     margin-bottom: 10px;
+  }
+}
+
+/*--- sponsors ----------------------------------------------*/
+
+#sponsors {
+  h3 {
+    display: inline-block;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    @include clearfix;
+    clear: both;
+    margin-bottom: 20px;
+  }
+  .logo {
+    float: left;
+  }
+  .url {
+    text-align: right;
+    margin-bottom: 10px;
+    a {
+      padding: 0 0 0 20px;
+      background: url(../images/commonWebMark.png) no-repeat left top;
+    }
+  }
+  #ruby {
+    img {
+      width: 180px;
+    }
+  }
+  #platinum {
+    img {
+      width: 120px;
+    }
+  }
+  #gold {
+    img {
+      width: 90px;
+    }
+    li {
+      display: inline-block;
+    }
   }
 }
 
