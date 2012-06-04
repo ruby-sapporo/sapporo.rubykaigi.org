@@ -1,7 +1,8 @@
 @charset "UTF-8";
+/*--- mixins ----------------------------------------------*/
 /*--- default ----------------------------------------------*/
 * {
-  color: #ee3706;
+  color: #293745;
   margin: 0px;
   padding: 0px;
   font-weight: normal;
@@ -41,11 +42,14 @@ address {
   font-style: normal; }
 
 h2,
-h3 {
+h2 a,
+h3,
+h3 a {
   clear: both;
   margin: 25px 0 10px 0;
   font-family: 'Crete Round', serif;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  color: #ee3706; }
 
 nav {
   margin: 0;
@@ -53,6 +57,9 @@ nav {
 
 ul li {
   list-style: none; }
+
+ul li img {
+  margin-right: 10px; }
 
 ol {
   padding: 20px; }
@@ -128,29 +135,28 @@ header nav {
 #mainImg {
   margin-bottom: 10px; }
 
+#localNav a:link,
+#localNav a:visited,
+#localNav a:active {
+  color: #293745; }
+#localNav a:hover {
+  color: #7f878f;
+  text-decoration: underline; }
+#localNav li {
+  padding: 0 0 0 20px;
+  background: url(../images/commonListMark.png) no-repeat left top; }
+
 #content {
-  background: rgba(255, 255, 255, 0.6);
-  padding: 20px; }
-  #content p {
-    color: #293745; }
+  background: rgba(255, 255, 255, 0.6); }
+  #content article {
+    padding: 20px; }
   #content strong {
     display: block;
     text-align: center; }
-  #content h1 {
-    background: #293745;
-    height: 80px;
-    line-height: 80px;
-    font-weight: bold;
-    font-size: 180%;
-    color: #d4d7da;
-    text-align: center;
-    margin-bottom: 30px; }
-    #content h1 span {
-      margin-left: 20px;
-      font-size: 50%;
-      color: #d4d7da; }
   #content h2,
-  #content h3 {
+  #content h2 a,
+  #content h3,
+  #content h3 a {
     font-weight: bold;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
   #content h2 {
@@ -164,8 +170,6 @@ header nav {
   #content h3 + p {
     margin: 0 20px;
     font-size: 80%; }
-  #content a:before {
-    content: "» "; }
   #content a:link,
   #content a:visited,
   #content a:active {
@@ -176,12 +180,18 @@ header nav {
 .wrapper {
   background: #293745; }
 
+.gridContainer > h1 {
+  color: #fdebe6;
+  background: #ee3706;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 2px; }
+
 footer {
   clear: both;
   margin-top: 5px; }
-  footer a:link,
-  footer a:visited,
-  footer a:active {
+  footer a:link, footer a:visited, footer a:active {
     color: #293745; }
   footer a:hover {
     color: #7f878f;
@@ -215,6 +225,12 @@ footer {
   display: inline-block;
   float: right;
   margin: 1px 0 0 3px; }
+
+.backToTop {
+  text-align: right; }
+  .backToTop a {
+    padding: 0 0 0 20px;
+    background: url(../images/commonBackToTop.png) no-repeat left top; }
 
 /*--- home ----------------------------------------------*/
 #information {
@@ -251,6 +267,10 @@ footer {
   #cfp hr {
     border: 0;
     border-bottom: 1px dashed #fff; }
+
+/*--- team ----------------------------------------------*/
+#team ul li {
+  margin-bottom: 10px; }
 
 /*--- cfs ----------------------------------------------*/
 #format {

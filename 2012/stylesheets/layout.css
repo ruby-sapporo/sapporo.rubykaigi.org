@@ -86,6 +86,26 @@ header nav li {
 	display: block;
 }
 
+#localNav {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#localNav li {
+  margin-right: 15px;
+  white-space: nowrap;
+	display: inline-block;
+}
+
+#content {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
 /* タブレットレイアウト : 481 px ～ 768 px。モバイルレイアウトからスタイルを継承。 */
 /*------------------------------------------------------------------------------------------------------------------【２】*/
 
@@ -167,6 +187,20 @@ footer aside {
 	display: block;
 }
 
+#localNav {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#content {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
 }
 
 /* デスクトップレイアウト : 769 px ～最大 1232 px。モバイルレイアウトとタブレットレイアウトからスタイルを継承。 */
@@ -224,6 +258,26 @@ header nav li {
 	float: left;
 	margin-left: 42.8571%;
 	width: 28.5714%;
+	display: block;
+}
+
+#localNav {
+	clear: both;
+	float: right;
+	margin-left: 0;
+	width: 18.3673%;
+	display: block;
+}
+
+#localNav li {
+	display: block;
+  white-space: normal;
+}
+
+#content {
+	clear: none;
+	float: left;
+	width: 69.3877%;
 	display: block;
 }
 

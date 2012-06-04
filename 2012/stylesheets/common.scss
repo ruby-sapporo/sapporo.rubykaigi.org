@@ -1,8 +1,70 @@
 @charset "UTF-8";
+
+/*--- mixins ----------------------------------------------*/
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin gradient_top_bottom($top, $bottom) {
+  background: linear-gradient(#{$top}, #{$bottom});
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #{$top}),color-stop(1, #{$bottom}));
+  background: -moz-linear-gradient(top, #{$top}, #{$bottom});
+}
+
+@mixin gradient_border_top_bottom($top, $bottom) {
+  border: -webkit-gradient(linear, center top, center bottom, from($top), to($bottom));
+  border: -moz-linear-gradient(top, #{$top}, #{$bottom});
+}
+
+@mixin radius($topleft, $topright, $bottomleft, $bottomright) {
+  -webkit-border-top-left-radius: #{$topleft}px;
+  -moz-border-radius-topleft: #{$topleft}px;
+  border-top-left-radius: #{$topleft}px;
+  -webkit-border-top-right-radius: #{$topright}px;
+  -moz-border-radius-topright: #{$topright}px;
+  border-top-right-radius: #{$topright}px;
+  -webkit-border-bottom-left-radius: #{$bottomleft}px;
+  -moz-border-radius-bottomleft: #{$bottomleft}px;
+  border-bottom-left-radius: #{$bottomleft}px;
+  -webkit-border-bottom-right-radius: #{$bottomright}px;
+  -moz-border-radius-bottomright: #{$bottomright}px;
+  border-bottom-right-radius: #{$bottomright}px;
+}
+
+@mixin box_shadow($y, $x, $blur, $color) {
+  -webkit-box-shadow: #{$y}px #{$x}px #{$blur}px #{$color};
+  -moz-box-shadow: #{$y}px #{$x}px #{$blur}px #{$color};
+  box-shadow: #{$y}px #{$x}px #{$blur}px #{$color};
+}
+
+@mixin commonListMark {
+  li {
+    padding: 0 0 0 20px;
+    background: url(../images/commonListMark.png) no-repeat left top;
+  }
+}
+
+@mixin deepLinkColor {
+  a:link,
+  a:visited,
+  a:active {
+    color: #293745;
+  }
+  a:hover {
+    color: #7f878f;
+    text-decoration: underline;
+  }
+}
+
 /*--- default ----------------------------------------------*/
 
 * {
-	color: #ee3706;
+	color: #293745;
 	margin: 0px;
 	padding: 0px;
 	font-weight: normal;
@@ -52,11 +114,14 @@ address {
 }
 
 h2,
-h3 {
+h2 a,
+h3,
+h3 a {
   clear: both;
 	margin: 25px 0 10px 0;
 	font-family: 'Crete Round', serif;
 	letter-spacing: 2px;
+  color: #ee3706;
 }
 
 nav {
@@ -66,6 +131,10 @@ nav {
 
 ul li {
   list-style: none;
+}
+
+ul li img {
+  margin-right: 10px;
 }
 
 ol {
@@ -161,33 +230,24 @@ header nav {
   margin-bottom: 10px;
 }
 
+#localNav {
+  @include deepLinkColor;
+  @include commonListMark;
+}
+
 #content {
 	background: rgba(255,255,255,0.6);
-	padding: 20px;
-  p {
-  	color: #293745;
+  article {
+    padding: 20px;
   }
   strong {
     display: block;
     text-align: center;
   }
-  h1 {
-	  background: #293745;
-    height: 80px;
-    line-height: 80px;
-    font-weight: bold;
-    font-size: 180%;
-    color: #d4d7da;
-    text-align: center;
-    margin-bottom: 30px;
-    span {
-      margin-left: 20px;
-      font-size: 50%;
-      color: #d4d7da;
-    }
-  }
   h2,
-  h3 {
+  h2 a,
+  h3,
+  h3 a {
     font-weight: bold;
 	  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   }
@@ -205,9 +265,6 @@ header nav {
   margin: 0 20px;
   font-size: 80%;
   }
-  a:before {
-    content: "» ";
-  }
   a:link,
   a:visited,
   a:active {
@@ -222,24 +279,22 @@ header nav {
   background: #293745;
 }
 
+.gridContainer > h1 {
+  color: #fdebe6;
+  background: #ee3706;
+  padding: 20px;
+  margin-bottom: 10px;
+	font-family: 'Crete Round', serif;
+	letter-spacing: 2px;
+}
+
 footer {
   clear: both;
   margin-top: 5px;
-  a:link,
-  a:visited,
-  a:active {
-    color: #293745;
-  }
-  a:hover {
-    color: #7f878f;
-    text-decoration: underline;
-  }
+  @include deepLinkColor;
   nav {
     float: left;
-    li {
-      padding: 0 0 0 20px;
-      background: url(../images/commonListMark.png) no-repeat left top;
-    }
+    @include commonListMark;
   }
   aside {
     float: right;
@@ -273,6 +328,14 @@ footer {
   display: inline-block;
   float: right;
 	margin: 1px 0 0 3px;
+}
+
+.backToTop {
+  text-align: right;
+  a {
+    padding: 0 0 0 20px;
+    background: url(../images/commonBackToTop.png) no-repeat left top;
+  }
 }
 
 /*--- home ----------------------------------------------*/
@@ -318,6 +381,14 @@ footer {
   hr {
     border: 0;
     border-bottom: 1px dashed #fff;
+  }
+}
+
+/*--- team ----------------------------------------------*/
+
+#team {
+  ul li {
+    margin-bottom: 10px;
   }
 }
 
