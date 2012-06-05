@@ -450,6 +450,20 @@ footer {
   }
 }
 
+/*--- goodies ----------------------------------------------*/
+
+#badges {
+  ul {
+    padding: 0;
+  }
+  li {
+    white-space: nowrap;
+    a {
+      @include commonLinkMark;
+    }
+  }
+}
+
 /*--- cfs ----------------------------------------------*/
 
 #format {
