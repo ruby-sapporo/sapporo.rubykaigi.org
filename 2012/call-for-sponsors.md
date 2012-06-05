@@ -60,7 +60,7 @@ To: sapporo2012@rubykaigi.org</strong></p>
 </ul>
 <ol class="bottomItem">
 <li><del datetime="2012-05-08T15:00:00+09">Ruby [300,000 JPY]</del> (CLOSED)</li>
-<li>Platinum [100,000 JPY] </li>
+<li><del datetime="2012-06-05T11:00:00+09">Platinum [100,000 JPY]</del> (CLOSED) </li>
 <li>Gold [50,000 JPY]</li>
 </ol>
 <p class="bottomItem"><strong>担当者様氏名 (Contact Name):</strong></p>
@@ -89,12 +89,12 @@ General Incorporated Association Ruby no Kai (Please select this option if you n
 <p class="bottomItem"><strong>Webサイトに掲載する御社名[英語]<br>
 (Company Name in English to be published on our website):</strong></p>
 <p class="bottomItem"><strong>御社Webサイトリンク先(Company Website URL):</strong></p>
-<p class="bottomItem"><strong>スポンサーPR文[日本語] (Sponsorship Copy in Japanese; optional):</strong><br>
+<del datetime="2012-06-05T11:00:00+09"><p class="bottomItem"><strong>スポンサーPR文[日本語] (Sponsorship Copy in Japanese; optional):</strong><br>
 * Rubyスポンサー: 400文字程度, Platinum スポンサー: 140文字程度<br>
-* Ruby: 400 Characters, Platinum: 140 Characters</p>
-<p class="bottomItem"><strong>スポンサーPR文[英語] (Sponsorship Copy in English):</strong><br>
+* Ruby: 400 Characters, Platinum: 140 Characters</p></del>
+<del datetime="2012-06-05T11:00:00+09"><p class="bottomItem"><strong>スポンサーPR文[英語] (Sponsorship Copy in English):</strong><br>
 * Rubyスポンサー: 400単語程度, Platinum スポンサー: 250単語程度<br>
-* Ruby: 400 Words, Platinum: 250 Words</p>
+* Ruby: 400 Words, Platinum: 250 Words</p></del>
 <p class="bottomItem"><strong>連絡事項 (Message to us):</strong></p>
 </div>
     　
