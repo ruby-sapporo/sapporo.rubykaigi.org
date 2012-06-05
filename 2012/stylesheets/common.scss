@@ -49,6 +49,11 @@
   }
 }
 
+@mixin commonLinkMark {
+  padding: 0 0 0 25px;
+  background: url(../images/commonLinkMark.png) no-repeat left top;
+}
+
 @mixin deepLinkColor {
   a:link,
   a:visited,
@@ -331,8 +336,7 @@ footer {
 }
 
 .linkMark {
-  padding: 0 0 0 25px;
-  background: url(../images/commonLinkMark.png) no-repeat left top;
+  @include commonLinkMark;
 }
 
 .comingSoon {
