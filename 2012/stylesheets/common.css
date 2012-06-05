@@ -225,6 +225,13 @@ footer {
     padding: 0 0 0 20px;
     background: url(../images/commonBackToTop.png) no-repeat left top; }
 
+.linkMark {
+  padding: 0 0 0 25px;
+  background: url(../images/commonLinkMark.png) no-repeat left top; }
+
+.comingSoon {
+  margin-left: 50px; }
+
 /*--- home ----------------------------------------------*/
 #information {
   margin-bottom: 20px; }
