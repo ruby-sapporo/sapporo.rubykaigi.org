@@ -300,6 +300,10 @@ footer {
 #sponsors #gold li {
   display: inline-block; }
 
+/*--- forAttendees ----------------------------------------------*/
+#access iframe {
+  margin-top: 10px; }
+
 /*--- cfs ----------------------------------------------*/
 #format {
   padding: 20px;
