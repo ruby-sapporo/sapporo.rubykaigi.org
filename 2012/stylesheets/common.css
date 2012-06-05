@@ -42,7 +42,8 @@ address {
   font-style: normal; }
 
 h2,
-h3 {
+h3,
+h4 {
   clear: both;
   margin: 25px 0 10px 0;
   font-family: 'Crete Round', serif;
@@ -149,7 +150,8 @@ header nav {
   #content article {
     padding: 20px; }
   #content h2,
-  #content h3 {
+  #content h3,
+  #content h4 {
     font-weight: bold;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
   #content h2 {
@@ -300,6 +302,11 @@ footer {
 /*--- forAttendees ----------------------------------------------*/
 #access iframe {
   margin-top: 10px; }
+
+#community .mlDescription {
+  border: 5px solid #d4d7da;
+  margin: 0 20px 20px 20px;
+  padding: 10px; }
 
 /*--- goodies ----------------------------------------------*/
 #badges ul {
