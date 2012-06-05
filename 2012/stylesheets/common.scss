@@ -119,7 +119,8 @@ address {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   clear: both;
 	margin: 25px 0 10px 0;
 	font-family: 'Crete Round', serif;
@@ -244,7 +245,8 @@ header nav {
     padding: 20px;
   }
   h2,
-  h3 {
+  h3,
+  h4 {
     font-weight: bold;
 	  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   }
@@ -446,6 +448,31 @@ footer {
   }
 }
 
+<<<<<<< gh-pages
+=======
+#community {
+  .mlDescription {
+    border: 5px solid #d4d7da;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+  }
+}
+
+/*--- goodies ----------------------------------------------*/
+
+#badges {
+  ul {
+    padding: 0;
+  }
+  li {
+    white-space: nowrap;
+    a {
+      @include commonLinkMark;
+    }
+  }
+}
+
+>>>>>>> HEAD~53
 /*--- cfs ----------------------------------------------*/
 
 #format {
