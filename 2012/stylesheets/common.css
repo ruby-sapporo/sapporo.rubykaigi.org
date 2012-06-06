@@ -273,6 +273,7 @@ footer {
 
 /*--- sponsors ----------------------------------------------*/
 #sponsors h3 {
+  margin-top: 5px;
   display: inline-block; }
 #sponsors ul {
   padding: 0; }
@@ -283,14 +284,6 @@ footer {
     content: "";
     display: block;
     clear: both; }
-#sponsors .logo {
-  float: left; }
-#sponsors .url {
-  text-align: right;
-  margin-bottom: 10px; }
-  #sponsors .url a {
-    padding: 0 0 0 20px;
-    background: url(../images/commonWebMark.png) no-repeat left top; }
 #sponsors #ruby img {
   width: 180px; }
 #sponsors #platinum img {
