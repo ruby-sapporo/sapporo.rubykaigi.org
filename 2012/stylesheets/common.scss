@@ -237,6 +237,7 @@ header nav {
 #localNav {
   @include deepLinkColor;
   @include commonListMark;
+  font-size: 100%;
 }
 
 #content {
@@ -288,7 +289,9 @@ footer {
   @include deepLinkColor;
   nav {
     float: left;
-    @include commonListMark;
+    li:before {
+      content: "» ";
+    }
   }
   aside {
     float: right;

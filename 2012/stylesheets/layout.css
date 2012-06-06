@@ -265,13 +265,14 @@ header nav li {
 	clear: both;
 	float: right;
 	margin-left: 0;
-	width: 18.3673%;
+	width: 27%;
 	display: block;
 }
 
 #localNav li {
 	display: block;
   white-space: normal;
+  margin-bottom: 10px;
 }
 
 #content {
