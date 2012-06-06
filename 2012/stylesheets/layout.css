@@ -201,6 +201,10 @@ footer aside {
 	display: block;
 }
 
+#sponsors .logo {
+  float: left;
+}
+
 }
 
 /* デスクトップレイアウト : 769 px ～最大 1232 px。モバイルレイアウトとタブレットレイアウトからスタイルを継承。 */

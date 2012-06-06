@@ -402,6 +402,7 @@ footer {
 
 #sponsors {
   h3 {
+    margin-top: 5px;
     display: inline-block;
   }
   ul {
@@ -411,17 +412,6 @@ footer {
     @include clearfix;
     clear: both;
     margin-bottom: 20px;
-  }
-  .logo {
-    float: left;
-  }
-  .url {
-    text-align: right;
-    margin-bottom: 10px;
-    a {
-      padding: 0 0 0 20px;
-      background: url(../images/commonWebMark.png) no-repeat left top;
-    }
   }
   #ruby {
     img {
