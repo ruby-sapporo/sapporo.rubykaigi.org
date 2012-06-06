@@ -292,6 +292,15 @@ footer {
   width: 90px; }
 #sponsors #gold li {
   display: inline-block; }
+#sponsors #additional span {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 100%;
+  padding: 3px;
+  font-size: 80%;
+  background: #293745;
+  color: #d4d7da; }
 
 /*--- forAttendees ----------------------------------------------*/
 #access iframe {
