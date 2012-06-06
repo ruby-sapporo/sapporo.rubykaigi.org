@@ -134,16 +134,18 @@ header nav {
 #mainImg {
   margin-bottom: 10px; }
 
-#localNav a:link,
-#localNav a:visited,
-#localNav a:active {
-  color: #293745; }
-#localNav a:hover {
-  color: #7f878f;
-  text-decoration: underline; }
-#localNav li {
-  padding: 0 0 0 20px;
-  background: url(../images/commonListMark.png) no-repeat left top; }
+#localNav {
+  font-size: 100%; }
+  #localNav a:link,
+  #localNav a:visited,
+  #localNav a:active {
+    color: #293745; }
+  #localNav a:hover {
+    color: #7f878f;
+    text-decoration: underline; }
+  #localNav li {
+    padding: 0 0 0 20px;
+    background: url(../images/commonListMark.png) no-repeat left top; }
 
 #content {
   background: rgba(255, 255, 255, 0.6); }
@@ -189,9 +191,8 @@ footer {
     text-decoration: underline; }
   footer nav {
     float: left; }
-    footer nav li {
-      padding: 0 0 0 20px;
-      background: url(../images/commonListMark.png) no-repeat left top; }
+    footer nav li:before {
+      content: "» "; }
   footer aside {
     float: right;
     text-align: right; }
