@@ -301,6 +301,8 @@ footer {
   font-size: 80%;
   background: #293745;
   color: #d4d7da; }
+#sponsors #additional li {
+  display: inline-block; }
 
 /*--- forAttendees ----------------------------------------------*/
 #access iframe {
