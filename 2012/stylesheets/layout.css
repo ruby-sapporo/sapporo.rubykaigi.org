@@ -106,6 +106,10 @@ header nav li {
 	display: block;
 }
 
+#team li img {
+  display: block;
+}
+
 /* タブレットレイアウト : 481 px ～ 768 px。モバイルレイアウトからスタイルを継承。 */
 /*------------------------------------------------------------------------------------------------------------------【２】*/
 
@@ -199,6 +203,10 @@ footer aside {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+}
+
+#team li img {
+  display: inline-block;
 }
 
 #sponsors .logo {
