@@ -431,15 +431,20 @@ footer {
       display: inline-block;
     }
   }
-  #additional span {
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 5px;
-    line-height: 100%;
-    padding: 3px;
-    font-size: 80%;
-    background: #293745;
-    color: #d4d7da;
+  #additional {
+    span {
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 5px;
+      line-height: 100%;
+      padding: 3px;
+      font-size: 80%;
+      background: #293745;
+      color: #d4d7da;
+    }
+    li {
+      display: inline-block;
+    }
   }
 }
 
