@@ -325,16 +325,19 @@ p.btn a:active {
   color: #eff6f6;
 }
 
+#cfs,
 #cfp {
   font-size: 80%;
   margin-bottom: 30px;
 }
 
+#cfs p,
 #cfp p {
   line-height: 150%;
   margin: 7px;
 }
 
+#cfs hr,
 #cfp hr {
   border: 0;
   border-bottom: 1px dashed #fff;
