@@ -181,6 +181,23 @@ header nav {
   font-family: 'Crete Round', serif;
   letter-spacing: 2px; }
 
+aside {
+  text-align: right;
+  padding: 5px 0; }
+  aside #lang {
+    margin: 0; }
+    aside #lang li {
+      background: #ee3706;
+      width: 100px;
+      margin: 0 0 0 5px;
+      text-align: center;
+      display: inline-block; }
+      aside #lang li:hover {
+        background: #f15f38; }
+      aside #lang li a {
+        color: #d4d7da;
+        text-decoration: none; }
+
 footer {
   clear: both;
   margin-top: 5px; }
@@ -194,19 +211,15 @@ footer {
     footer nav li:before {
       content: "» "; }
   footer aside {
-    float: right;
-    text-align: right; }
-    footer aside #lang li {
-      background: #293745;
-      padding: 3px;
-      width: 100px;
-      margin-left: 2px;
-      text-align: center;
-      display: inline-block; }
-      footer aside #lang li:hover {
+    float: right; }
+    footer aside #lang
+    li {
+      background: #293745; }
+      footer aside #lang
+      li:hover {
         background: #3e4b57; }
-      footer aside #lang li a {
-        text-decoration: none;
+      footer aside #lang
+      li a {
         color: #d4d7da; }
   footer #copyright {
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;

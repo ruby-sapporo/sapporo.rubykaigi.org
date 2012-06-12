@@ -283,6 +283,28 @@ header nav {
 	letter-spacing: 2px;
 }
 
+aside {
+  text-align: right;
+  padding: 5px 0;
+  #lang {
+    margin: 0;
+    li {
+      background: #ee3706;
+      width: 100px;
+      margin: 0 0 0 5px;
+      text-align: center;
+      display: inline-block;
+      &:hover {
+        background: #f15f38;
+      }
+      a {
+        color: #d4d7da;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
 footer {
   clear: both;
   margin-top: 5px;
@@ -295,22 +317,14 @@ footer {
   }
   aside {
     float: right;
-    text-align: right;
-    #lang {
+    #lang
       li {
-        background: #293745;
-        padding: 3px;
-        width: 100px;
-        margin-left: 2px;
-        text-align: center;
-        display: inline-block;
+      background: #293745;
         &:hover {
           background: #3e4b57;
         }
-        a {
-          text-decoration: none;
-          color: #d4d7da;
-        }
+      a {
+        color: #d4d7da;
       }
     }
   }
