@@ -340,6 +340,15 @@ footer {
   @include commonLinkMark;
 }
 
+ul.listMarkRed {
+  padding-left: 0;
+  margin-left: 0;
+  li{
+    padding: 0 0 0 25px;
+    background: url(../images/commonListMarkRed.png) no-repeat left top;
+  }
+}
+
 .comingSoon {
   margin-left: 50px;
 }
@@ -359,6 +368,9 @@ footer {
   }
   dd {
     display: inline-block;
+    color: #fcd7cd;
+  }
+  ul li {
     color: #fcd7cd;
   }
 }
