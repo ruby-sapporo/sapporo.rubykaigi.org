@@ -267,6 +267,14 @@ ul.listMarkRed {
     color: #fcd7cd; }
   #information ul li {
     color: #fcd7cd; }
+  #information #keynote {
+    background: #ffffe1;
+    padding: 10px; }
+    #information #keynote li {
+      font-size: 180%;
+      font-weight: bold;
+      color: #ee3706;
+      margin: 10px; }
 
 #news {
   padding: 9px;
