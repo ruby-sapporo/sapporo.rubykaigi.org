@@ -45,7 +45,8 @@ img, object, embed, video {
 	margin: 10px 50px;
 }
 
-#mainImg {
+#mainImg,
+#sponsorLogos {
 	display: none;
 }
 
@@ -167,7 +168,8 @@ header nav li {
 	padding: 0 7px;
 }
 
-#mainImg {
+#mainImg,
+#sponsorLogos {
 	display: block;
 }
 

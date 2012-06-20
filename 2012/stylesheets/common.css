@@ -297,6 +297,16 @@ ul.listMarkRed {
     border: 0;
     border-bottom: 1px dashed #fff; }
 
+#sponsorLogos {
+  clear: both; }
+  #sponsorLogos h3 {
+    color: #fcd7cd; }
+  #sponsorLogos li {
+    margin: 5px;
+    display: inline-block; }
+    #sponsorLogos li img {
+      margin: 0; }
+
 /*--- about ----------------------------------------------*/
 #prospectus footer {
   text-align: right;

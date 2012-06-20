@@ -426,6 +426,20 @@ ul.listMarkRed {
   }
 }
 
+#sponsorLogos {
+  clear: both;
+  h3 {
+    color: #fcd7cd;
+  }
+  li {
+    margin: 5px;
+    display: inline-block;
+    img {
+      margin: 0;
+    }
+  }
+}
+
 /*--- about ----------------------------------------------*/
 
 #prospectus {
