@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* 標準可変メディア
+   メモ : 可変メディアでは、HTML からメディアの高さおよび幅の属性を削除する必要がある
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 では最大幅がサポートされていないため、デフォルトで幅 100% に設定される */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver 可変グリッドプロパティ
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	以下からヒントを入手 : Ethan Marcotte 氏の「レスポンシブ Web デザイン」 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	および Joni Korpi 氏の「Golden Grid System」
+	http://goldengridsystem.com/ 
+*/
+
+/* モバイルレイアウト : 480 px およびそれ以下. */
+/*------------------------------------------------------------------------------------------------------------------【１】*/
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+
+.wrapper {
+	padding: 4.1666%;
+}
+
+.btn {
+	margin: 10px 50px;
+}
+
+#mainImg,
+#sponsorLogos {
+	display: none;
+}
+
+#news {
+	clear: both;
+	margin-left: 0;
+	display: block;
+}
+
+#information {
+	clear: both;
+	margin-left: 0;
+	display: block;
+}
+
+header nav {
+padding: 0;
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+header nav li {
+	display: block;
+	border-bottom: 1px solid #3e4b57 collapse;
+  border-top: 1px solid #3e4b57;
+}
+
+#headerLogo {
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#headerDate {
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#localNav {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#localNav li {
+  margin-right: 15px;
+  white-space: nowrap;
+	display: inline-block;
+}
+
+#content {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#team li img {
+  display: block;
+}
+
+/* タブレットレイアウト : 481 px ～ 768 px。モバイルレイアウトからスタイルを継承。 */
+/*------------------------------------------------------------------------------------------------------------------【２】*/
+
+@media only screen and (min-width: 481px) {
+	
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+
+.wrapper {
+	padding: 2.5641%;
+}
+
+.btn {
+	margin: 10px 30px;
+}
+
+header {
+	white-space: nowrap;
+}
+
+#headerLogo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
+
+#headerDate {
+	clear: none;
+	float: left;
+	margin-left: 28.2051%;
+	width: 35.8974%;
+	display: block;
+}
+
+header nav {
+	clear: both;
+}
+
+header nav ul {
+	display: inline-block;
+	border-left: 1px solid #3e4b57;
+}
+
+header nav li {
+	border-top: none;
+	border-bottom: none;
+  border-left: 1px solid #3e4b57 collapse;
+  border-right: 1px solid #3e4b57;
+	display: inline-block;
+	padding: 0 7px;
+}
+
+#mainImg,
+#sponsorLogos {
+	display: block;
+}
+
+footer aside {
+	float: right;
+}
+
+#news {
+	clear: none;
+	float: right;
+	margin-left: 2.5641%;
+	width: 35.8974%;
+	display: block;
+}
+
+#information {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+
+#localNav {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#content {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#team li img {
+  display: inline-block;
+}
+
+#sponsors .logo {
+  float: left;
+}
+
+}
+
+/* デスクトップレイアウト : 769 px ～最大 1232 px。モバイルレイアウトとタブレットレイアウトからスタイルを継承。 */
+/*------------------------------------------------------------------------------------------------------------------【３】*/
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+
+.wrapper {
+	padding: 2.0408%;
+}
+
+.btn {
+	margin: 10px 70px;
+}
+
+#news {
+	clear: none;
+	float: right;
+	margin-left: 2.0408%;
+	width: 38.7755%;
+	display: block;
+}
+
+#information {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+}
+
+header nav li {
+	width: 110px;
+	font-size: 120%;
+}
+
+#headerLogo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+}
+
+#headerDate {
+	clear: none;
+	float: left;
+	margin-left: 42.8571%;
+	width: 28.5714%;
+	display: block;
+}
+
+#localNav {
+	clear: both;
+	float: right;
+	margin-left: 0;
+	width: 27%;
+	display: block;
+}
+
+#localNav li {
+	display: block;
+  white-space: normal;
+  margin-bottom: 10px;
+}
+
+#content {
+	clear: none;
+	float: left;
+	width: 69.3877%;
+	display: block;
+}
+
+}

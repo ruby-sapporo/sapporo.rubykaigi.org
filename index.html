@@ -1,9 +1,16 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <meta http-equiv="Refresh" content="0; URL=/2012" />
+    <script>
+      locale = (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2);
+      if (locale == "ja"){
+        location.href = "/2012/ja/";
+      } else {
+        location.href = "/2012/en/";
+      }
+    </script>
   </head>
   <body>
-    <a href="/2012">Sapporo RubyKaigi 2012</a>
+    <a href="/2012/ja/">Sapporo RubyKaigi 2012</a>
   </body>
 </html>
