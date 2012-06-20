@@ -1,0 +1,558 @@
+@charset "UTF-8";
+
+/*--- mixins ----------------------------------------------*/
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin gradient_top_bottom($top, $bottom) {
+  background: linear-gradient(#{$top}, #{$bottom});
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #{$top}),color-stop(1, #{$bottom}));
+  background: -moz-linear-gradient(top, #{$top}, #{$bottom});
+}
+
+@mixin gradient_border_top_bottom($top, $bottom) {
+  border: -webkit-gradient(linear, center top, center bottom, from($top), to($bottom));
+  border: -moz-linear-gradient(top, #{$top}, #{$bottom});
+}
+
+@mixin radius($topleft, $topright, $bottomleft, $bottomright) {
+  -webkit-border-top-left-radius: #{$topleft}px;
+  -moz-border-radius-topleft: #{$topleft}px;
+  border-top-left-radius: #{$topleft}px;
+  -webkit-border-top-right-radius: #{$topright}px;
+  -moz-border-radius-topright: #{$topright}px;
+  border-top-right-radius: #{$topright}px;
+  -webkit-border-bottom-left-radius: #{$bottomleft}px;
+  -moz-border-radius-bottomleft: #{$bottomleft}px;
+  border-bottom-left-radius: #{$bottomleft}px;
+  -webkit-border-bottom-right-radius: #{$bottomright}px;
+  -moz-border-radius-bottomright: #{$bottomright}px;
+  border-bottom-right-radius: #{$bottomright}px;
+}
+
+@mixin box_shadow($y, $x, $blur, $color) {
+  -webkit-box-shadow: #{$y}px #{$x}px #{$blur}px #{$color};
+  -moz-box-shadow: #{$y}px #{$x}px #{$blur}px #{$color};
+  box-shadow: #{$y}px #{$x}px #{$blur}px #{$color};
+}
+
+@mixin commonListMark {
+  li {
+    padding: 0 0 0 20px;
+    background: url(../images/commonListMark.png) no-repeat left top;
+  }
+}
+
+@mixin commonLinkMark {
+  padding: 0 0 0 25px;
+  background: url(../images/commonLinkMark.png) no-repeat left top;
+}
+
+@mixin deepLinkColor {
+  a:link,
+  a:visited,
+  a:active {
+    color: #293745;
+  }
+  a:hover {
+    color: #7f878f;
+    text-decoration: underline;
+  }
+}
+
+/*--- default ----------------------------------------------*/
+
+* {
+	color: #293745;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-family: "Karla", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background: url(../images/commonBackground.png) repeat;
+  width: 100%;
+  height: 100%;
+	line-height: 150%;
+  margin-top: 10px;
+  padding: 0 0 60px 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #fcd7cd;
+}
+
+a:hover {
+	color: #f69b82;
+  text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  img {
+    border: none;
+    text-decoration: none;
+  }
+}
+
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+
+address {
+	font-style:normal;
+}
+
+h2,
+h3,
+h4 {
+  clear: both;
+	margin: 25px 0 10px 0;
+	font-family: 'Crete Round', serif;
+	letter-spacing: 2px;
+  color: #ee3706;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li img {
+  margin-right: 10px;
+}
+
+ol {
+  padding: 20px;
+}
+
+strong {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #edcfd1;
+}
+
+table tr,
+table tr th,
+table tr td {
+  padding: 10px;
+  border: 1px solid #edcfd1;
+  border-collapse: collapse;
+}
+
+th {
+  background: #edcfd1;
+}
+
+/*--- id, class ----------------------------------------------*/
+
+p.btn {
+  a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+	  text-decoration:none;
+	  color: #fff;
+  }
+  a:link,
+  a:visited {
+	  background: #ee3706;
+  }
+  a:hover,
+  a:active {
+    background: #f15f38;
+    position:relative;
+  }
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header nav {
+	background: #293745;
+  text-align: center;
+  margin: 10px 0;
+  ul {
+    margin: 0 auto;
+    padding: 0px;
+    li {
+      margin-right: 0px;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      &:hover {
+        background: #3e4b57;
+      }
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        letter-spacing: 1px;
+        font-family: 'Crete Round', serif;
+        color: #d4d7da;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#mainImg {
+  margin-bottom: 10px;
+}
+
+#localNav {
+  @include deepLinkColor;
+  @include commonListMark;
+  font-size: 100%;
+}
+
+#content {
+	background: rgba(255,255,255,0.6);
+  article {
+    padding: 20px;
+  }
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+	  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+  h2 {
+    border-left: 10px solid #edcfd1;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    font-size: 140%;
+  }
+  h3 {
+    font-size: 110%;
+  }
+  a:link,
+  a:visited,
+  a:active {
+    color: #293745;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.wrapper {
+  background: #293745;
+}
+
+.gridContainer > h1 {
+  color: #fdebe6;
+  background: #ee3706;
+  padding: 20px;
+  margin-bottom: 10px;
+	font-family: 'Crete Round', serif;
+	letter-spacing: 2px;
+}
+
+aside {
+  text-align: right;
+  padding: 5px 0;
+  #lang {
+    margin: 0;
+    li {
+      background: #ee3706;
+      width: 100px;
+      margin: 0 0 0 5px;
+      text-align: center;
+      display: inline-block;
+      &:hover {
+        background: #f15f38;
+      }
+      a {
+        color: #d4d7da;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+footer {
+  clear: both;
+  margin-top: 5px;
+  @include deepLinkColor;
+  nav {
+    float: left;
+    li:before {
+      content: "» ";
+    }
+  }
+  aside {
+    float: right;
+    #lang
+      li {
+      background: #293745;
+        &:hover {
+          background: #3e4b57;
+        }
+      a {
+        color: #d4d7da;
+      }
+    }
+  }
+  #copyright {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 80%;
+    text-align: right;
+  }
+}
+
+.socialBtn {
+  display: inline-block;
+  float: right;
+	margin: 1px 0 0 3px;
+}
+
+.backToTop {
+  clear: both;
+  text-align: right;
+  a {
+    padding: 0 0 0 20px;
+    background: url(../images/commonBackToTop.png) no-repeat left top;
+  }
+}
+
+.linkMark {
+  @include commonLinkMark;
+}
+
+ul.listMarkRed {
+  padding-left: 0;
+  margin-left: 0;
+  li{
+    padding: 0 0 0 25px;
+    background: url(../images/commonListMarkRed.png) no-repeat left top;
+  }
+}
+
+.comingSoon {
+  margin-left: 50px;
+}
+
+/*--- home ----------------------------------------------*/
+
+#information {
+  margin-bottom: 20px;
+  dl {
+    padding: 0;
+  }
+  dt {
+    white-space: nowrap;
+    vertical-align: top;
+    font-weight: bold;
+    color: #eff6f6;
+  }
+  dd {
+    display: inline-block;
+    color: #fcd7cd;
+  }
+  ul li {
+    color: #fcd7cd;
+  }
+  #keynote {
+    background: #ffffe1;
+    padding: 10px;
+    li {
+      font-size: 180%;
+      font-weight: bold;
+      color: #ee3706;
+      margin: 10px;
+    }
+  }
+}
+
+#news {
+  padding: 9px;
+  border: 5px solid rgba(255,255,255,0.2);
+  h2 {
+    margin-top: 10px;
+    color: #eff6f6;
+  }
+}
+
+#news p,
+#information p {
+	color: #fcd7cd;
+}
+
+#cfp {
+  font-size: 90%;
+  margin-bottom: 30px;
+  p {
+    line-height: 150%;
+    margin: 7px;
+  }
+  hr {
+    border: 0;
+    border-bottom: 1px dashed #fff;
+  }
+}
+
+#sponsorLogos {
+  clear: both;
+  h3 {
+    color: #fcd7cd;
+  }
+  li {
+    margin: 5px;
+    display: inline-block;
+    img {
+      margin: 0;
+    }
+  }
+}
+
+/*--- about ----------------------------------------------*/
+
+#prospectus {
+  p {
+    margin: 10px;
+  }
+  footer {
+    text-align: right;
+    margin: 10px 0;
+  }
+}
+
+/*--- team ----------------------------------------------*/
+
+#team {
+  ul li {
+    margin-bottom: 10px;
+  }
+}
+
+/*--- sponsors ----------------------------------------------*/
+
+#sponsors {
+  h3 {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    @include clearfix;
+    clear: both;
+    margin-bottom: 20px;
+  }
+  #ruby {
+    img {
+      width: 180px;
+    }
+  }
+  #platinum {
+    img {
+      width: 120px;
+    }
+  }
+  #gold {
+    img {
+      width: 90px;
+    }
+    li {
+      display: inline-block;
+    }
+  }
+  #additional {
+    span {
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 5px;
+      line-height: 100%;
+      padding: 3px;
+      font-size: 80%;
+      background: #293745;
+      color: #d4d7da;
+    }
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+/*--- forAttendees ----------------------------------------------*/
+
+#access {
+  iframe {
+    margin-top: 10px;
+  }
+}
+
+#community {
+  .mlDescription {
+    border: 5px solid #d4d7da;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+  }
+}
+
+/*--- goodies ----------------------------------------------*/
+
+#badges {
+  ul {
+    padding: 0;
+  }
+  li {
+    white-space: nowrap;
+    a {
+      @include commonLinkMark;
+    }
+  }
+}
+
+/*--- cfs ----------------------------------------------*/
+
+#format {
+  padding: 20px;
+  border: 3px solid #D4D7DA;
+  * {
+	  color: #293745;
+  }
+  .bottomItem {
+    margin-bottom: 70px;
+  }
+  strong {
+    font-size: 100%;
+    text-align: left;
+  }
+}
