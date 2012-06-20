@@ -308,6 +308,8 @@ ul.listMarkRed {
       margin: 0; }
 
 /*--- about ----------------------------------------------*/
+#prospectus p {
+  margin: 10px; }
 #prospectus footer {
   text-align: right;
   margin: 10px 0; }
