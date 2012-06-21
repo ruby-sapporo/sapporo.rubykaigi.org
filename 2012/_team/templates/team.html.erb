@@ -1,18 +1,18 @@
 <article id="team">
-<h2><%= i18n(@title, @locale) %></h2>
-<% @team.each do |item|%>
-<% section = item['section'] %>
-<h3><%= i18n(section['name'], @locale) %></h3>
-  <ul><% section['people'].each do |person| %>
-    <li>
-      <img alt="avatar" height="32" width="32" src="<%= person['gravatar'] ? 'http://www.gravatar.com/avatar/%s?s=32' % [person['gravatar']] : '/2012/images/avatar.png' %>">
-      <%= i18n(person['name'], @locale) %>
-<% affiliation = i18n(person['affiliation'], @locale) %>
-<% if affiliation %>
-      (<%= affiliation %>)
-<% end %>
-    </li>
+  <h2><%= i18n(@title, @locale) %></h2>
+  <% @team.each do |item|%>
+  <% section = item['section'] %>
+  <h3><%= i18n(section['name'], @locale) %></h3>
+    <ul><% section['people'].each do |person| %>
+      <li>
+        <img alt="avatar" height="32" width="32" src="<%= person['gravatar'] ? 'http://www.gravatar.com/avatar/%s?s=32' % [person['gravatar']] : '/2012/images/avatar.png' %>">
+        <%= i18n(person['name'], @locale) %>
+  <% affiliation = i18n(person['affiliation'], @locale) %>
+  <% if affiliation %>
+        (<%= affiliation %>)
   <% end %>
-</ul>
-<% end %>
+      </li>
+    <% end %>
+  </ul>
+  <% end %>
 </article>
