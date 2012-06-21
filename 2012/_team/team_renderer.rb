@@ -17,10 +17,10 @@ def gravatar_tag(id, size=32)
 end
 
 def render_web(locale)
-  open('team/%s.md' % locale, 'w') do |f|
-    @locale = locale
-    @title = {'ja' => '実行委員会', 'en' => 'Team'}
-    @team = YAML.load_file('team.yml')
+  @locale = locale
+  @title = {'ja' => '実行委員会', 'en' => 'Team'}
+  @team = YAML.load_file(File.join(File.dirname(__FILE__), 'team.yml'))
+  open(File.join(File.dirname(__FILE__), '../../_includes/2012/%s/team.html' % locale), 'w') do |f|
     f << ERB.new(File.read('./templates/team.html.erb')).result(binding)
   end
 end
