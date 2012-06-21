@@ -8,14 +8,6 @@ def i18n(value, lang='en')
   value[lang] || value['en']
 end
 
-def gravatar_tag(id, size=32)
-  if id
-    '<img alt="avatar" height="32" width="32" src="http://www.gravatar.com/avatar/%s?s=%d" width="%d">' % [id, size, size]
-  else
-    '<img alt="avatar" height="32" width="32" src="/2012/images/avatar.png">'
-  end
-end
-
 def render_web(locale)
   @locale = locale
   @title = {'ja' => '実行委員会', 'en' => 'Team'}
