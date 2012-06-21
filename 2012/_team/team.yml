@@ -1,6 +1,6 @@
 - section:
     name:
-      en: Chairman
+      en: Organizing Director
       ja: 実行委員長
     people:
     - name:
@@ -13,7 +13,7 @@
 
 - section:
     name:
-      en: Chief of Operations
+      en: Operation Lead
       ja: 運営委員長
     people:
     - name:
@@ -26,7 +26,7 @@
 
 - section:
     name:
-      en: Vice Chief of Operations
+      en: Operation Lead Assistant
       ja: 副運営委員長
     people:
     - name:
@@ -59,7 +59,7 @@
 
 - section:
     name:
-      en: Organizers
+      en: Staff
       ja: 実行委員
     people:
     - name:
@@ -176,7 +176,7 @@
 
 - section:
     name:
-      en: i18n
+      en: I18n
       ja: 国際化
     people:
     - name:
@@ -223,7 +223,7 @@
 
 - section:
     name:
-      en: "KaigiFreaks::NetworkTeam"
+      en: KaigiFreaks Networking Squad
       ja: "KaigiFreaksネットワーク班"
     people:
     - name:
@@ -243,7 +243,7 @@
 
 - section:
     name:
-      en: "KaigiFreaks::RecordingTeam"
+      en: KaigiFreaks Streaming Squad
       ja: "KaigiFreaks録画配信班"
     people:
     - name:
