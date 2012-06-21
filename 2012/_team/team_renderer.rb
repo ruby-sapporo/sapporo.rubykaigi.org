@@ -33,22 +33,5 @@ def render_web(lang)
   end
 end
 
-def render_qwik(lang)
-  open('team/%s.qwik' % lang, 'w') do |f|
-    f.puts "{{schedule"
-    f.puts "|名前|"
-    items = YAML.load_file('team.yaml')
-    items.each do |item|
-      section = item['section']
-      people = section['people']
-      people.each do |person|
-        f.puts "|%s|" % i18n(person['name'], lang)
-      end
-    end
-    f.puts "}}"
-  end
-end
-
 render_web('ja')
 render_web('en')
-render_qwik('ja')
