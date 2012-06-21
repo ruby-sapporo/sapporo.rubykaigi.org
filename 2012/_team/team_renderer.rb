@@ -2,34 +2,26 @@
 # coding: utf-8
 
 require 'yaml'
+require 'erb'
 
 def i18n(value, lang='en')
   value[lang] || value['en']
 end
 
 def gravatar_tag(id, size=32)
-  '<img alt="avatar" height="32" src="http://www.gravatar.com/avatar/%s?s=%d" width="%d">' % [id, size, size]
+  if id
+    '<img alt="avatar" height="32" src="http://www.gravatar.com/avatar/%s?s=%d" width="%d">' % [id, size, size]
+  else
+    '<img alt="avatar" height="32" src="/2012/images/avatar.png">'
+  end
 end
 
-def render_web(lang)
-  open('team/%s.md' % lang, 'w') do |f|
-    title = {'ja' => '実行委員会', 'en' => 'Team'}
-    f.puts "# " + i18n(title, lang)
-    items = YAML.load_file('team.yml')
-    items.each do |item|
-      section = item['section']
-      f.puts "## " + i18n(section['name'], lang)
-      people = section['people']
-      people.each do |person|
-        f.puts "### " + i18n(person['name'], lang)
-        if person['gravatar']
-          f.puts gravatar_tag(person['gravatar'])
-          f.puts
-        end
-        f.puts i18n(person['affiliation'], lang)
-      end
-      f.puts
-    end
+def render_web(locale)
+  open('team/%s.md' % locale, 'w') do |f|
+    @locale = locale
+    @title = {'ja' => '実行委員会', 'en' => 'Team'}
+    @team = YAML.load_file('team.yml')
+    f << ERB.new(File.read('./templates/team.html.erb')).result(binding)
   end
 end
 
