@@ -13,7 +13,7 @@ def render_web(locale)
   @title = {'ja' => '実行委員会', 'en' => 'Organizing Team'}
   @team = YAML.load_file(File.join(File.dirname(__FILE__), 'team.yml'))
   open(File.join(File.dirname(__FILE__), '../../_includes/2012/%s/team.html' % locale), 'w') do |f|
-    f << ERB.new(File.read('./templates/team.html.erb')).result(binding)
+    f << ERB.new(File.read(File.join(File.dirname(__FILE__), './templates/team.html.erb'))).result(binding)
   end
 end
 
