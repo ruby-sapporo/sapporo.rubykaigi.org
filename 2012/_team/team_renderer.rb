@@ -10,9 +10,9 @@ end
 
 def gravatar_tag(id, size=32)
   if id
-    '<img alt="avatar" height="32" src="http://www.gravatar.com/avatar/%s?s=%d" width="%d">' % [id, size, size]
+    '<img alt="avatar" height="32" width="32" src="http://www.gravatar.com/avatar/%s?s=%d" width="%d">' % [id, size, size]
   else
-    '<img alt="avatar" height="32" src="/2012/images/avatar.png">'
+    '<img alt="avatar" height="32" width="32" src="/2012/images/avatar.png">'
   end
 end
 
