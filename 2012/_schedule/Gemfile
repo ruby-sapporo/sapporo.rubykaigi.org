@@ -1,0 +1,5 @@
+source :rubygems
+
+gem 'rake'
+gem 'i18n'
+gem 'redcarpet'

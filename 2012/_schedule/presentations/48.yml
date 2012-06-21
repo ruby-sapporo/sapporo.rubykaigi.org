@@ -1,0 +1,36 @@
+---
+presenters:
+  - name:
+      ja: 宮下 剛輔
+      en: Gosuke Miyashita
+    affiliation:
+      ja: 株式会社paperboy&co.
+      en: paperboy&co., Inc.
+    bio:
+      ja: |-
+        [株式会社paperboy&co.](http://paperboy.co.jp) でテクニカルマネージャーやってます。
+      en: |-
+        Techinical Manager of [paperboy&co., Inc](http://paperboy.co.jp).
+    github: mizzy
+title:
+  ja: Sqale の裏側
+  en: Inside Sqale's Backend
+abstract:
+  ja: |-
+    [paperboy&co.](http://paperboy.co.jp) が提供する Ruby に対応した Paas である [Sqale](http://sqale.jp) 、その裏側のアーキテクチャについてお話します。
+
+    Ruby On Rails による Sqale のフロントエンド開発に関する話については、@banyan が「Sqale の表側」というタイトルで発表してくれます。
+  en: |-
+    [Sqale](http://sqale.jp) is a Ruby PaaS from [paperboy&co., Inc](http://paperboy.co.jp).
+
+    I will talk about the backend architecture of [Sqale](http://sqale.jp).
+
+    @banyan will also talk about the development of Sqale frontend by RoR as "Inside Sqale's Frontend".
+references:
+  ja:
+  en: |-
+    - [Blog](http://mizzy.org)
+    - [Twitter](https://twitter.com/#!/gosukenator)
+    - [GitHub](https://github.com/mizzy)
+    - [Slideshare](http://www.slideshare.net/mizzy/presentations)
+language: Japanese (A slide is written by English)

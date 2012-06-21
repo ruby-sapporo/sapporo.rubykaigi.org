@@ -1,0 +1,5 @@
+<ul>
+  <li><%= presentation.presenters.map {|presenter| presenter.name }.join(', ') %></li>
+  <li><%= presentation.title %></li>
+  <li><a href="<%= '/2012/%s/schedule/details/%s.html' % [I18n.locale, presentation.id] %>">more</a></li>
+</ul>

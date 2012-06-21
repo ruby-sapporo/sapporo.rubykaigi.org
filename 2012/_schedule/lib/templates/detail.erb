@@ -1,0 +1,26 @@
+---
+<%= Views::Metadata.new.render %>
+---
+<dl>
+  <% presentation.presenters.each do |presenter| %>
+    <dt>github</dt>
+    <dd>
+      <img src="http://usericons.relucks.org/github/<%= presenter.github %>" width="20" height="20" />
+      <a href="https://github.com/<%= presenter.github %>">@<%= presenter.github %></a>
+    </dd>
+    <dt><%= t(:name) %></dt>
+    <dd><%= presenter.name %></dd>
+    <dt><%= t(:affiliation) %></dt>
+    <dd><%= md(presenter.affiliation) %></dd>
+    <dt><%= t(:bio) %></dt>
+    <dd><%= md(presenter.bio) %></dd>
+  <% end %>
+  <dt><%= t(:title) %></dt>
+  <dd><%= presentation.title %></dd>
+  <dt><%= t(:abstract) %></dt>
+  <dd><%= md(presentation.abstract) %></dd>
+  <dt><%= t(:presentation_language) %></dt>
+  <dd><%= presentation.language %></dd>
+  <dt><%= t(:references) %></dt>
+  <dd><%= md(presentation.references) %></dd>
+</dl>
