@@ -1,0 +1,261 @@
+- section:
+    name:
+      en: Organizing Director
+      ja: 実行委員長
+    people:
+    - name:
+        en: Koji SHIMADA
+        ja: 島田浩二
+      affiliation:
+        en: Nihon Ruby-no-Kai, Enishi Tech Inc.
+        ja: 一般社団法人日本Rubyの会, 株式会社えにしテック
+      gravatar: 941b170e5a115a295cccb5f5cdf0a800
+
+- section:
+    name:
+      en: Operation Lead
+      ja: 運営委員長
+    people:
+    - name:
+        en: Yoji SHIDARA
+        ja: しだらようじ
+      affiliation:
+        en: Ruby Sapporo, Enishi Tech Inc.
+        ja: Ruby札幌, 株式会社えにしテック
+      gravatar: 817b7699ccbd3a6664de66eee8c2cbd2
+
+- section:
+    name:
+      en: Operation Lead Assistant
+      ja: 副運営委員長
+    people:
+    - name:
+        en: Tomoki MAEDA
+        ja: まえだともき
+      affiliation:
+        en: Ruby Sapporo, Antas
+        ja: Ruby札幌, 株式会社アンタス
+      gravatar: cb755c8075d5c9097f1ce3c70f728195
+
+- section:
+    name:
+      en: Adviser
+      ja: 顧問
+    people:
+    - name:
+        en: Masayoshi TAKAHASHI
+        ja: 高橋征義
+      affiliation:
+        en: Nihon Ruby-no-Kai, Chairman / tatsu-zine.com
+        ja: 一般社団法人日本Rubyの会, 達人出版会
+      gravatar: 21a4b941766d805333e11c5766be43b4
+    - name:
+        en: Shintaro KAKUTANI
+        ja: 角谷信太郎
+      affiliation:
+        en: Nihon Ruby-no-Kai || Eiwa System Management
+        ja: 一般社団法人日本Rubyの会 || (株)永和システムマネジメント
+      gravatar: 63a6bff89d692e21de20868202bc8dde
+
+- section:
+    name:
+      en: Staff
+      ja: 実行委員
+    people:
+    - name:
+        en: Fumitake TANIGUCHI
+        ja: たにぐちふみたけ
+      affiliation:
+        en: Ruby Sapporo, Hokkaido Information University
+        ja: Ruby札幌, 北海道情報大学
+      gravatar: e514ae09c9b84e04231af57f1d1946b8
+    - name:
+        en: Ryunosuke SATO
+        ja: 佐藤竜之介
+      affiliation:
+        en: Enishi Tech Inc., Sapporo.js
+        ja: 株式会社えにしテック, Sapporo.js
+      gravatar: dc03a27ae31ba428c560c00c9128cd75
+    - name:
+        en: "@irasally"
+        ja: オム子
+      affiliation:
+        en: Ruby Sapporo, es-planning, Inc.,  LOCAL
+        ja: Ruby札幌, 株式会社エスプランニング, 一般社団法人LOCAL
+      gravatar: b69bb3a59c3977e221a4cc98a997c60d
+    - name:
+        en: Yutaka OGASAWARA
+        ja: おがさわらゆたか
+      affiliation:
+        en: Ruby Sapporo, Antas
+        ja: Ruby札幌, 株式会社アンタス
+    - name:
+        en: Tsuyoshi Maehana
+        ja: 前鼻毅
+      affiliation:
+        en: Ruby Sapporo, RICOH IT SOLUTIONS
+        ja: Ruby札幌, RICOH IT SOLUTIONS
+      gravatar: e8ebe7d4ec09c5dd77ee064706836f23
+    - name:
+        en: Atsushi Suzuki
+        ja: 鈴木淳司
+      affiliation:
+        en: Agile Sapporo, Tokyo Electron Software Technorogies Ltd.
+        ja: アジャイル札幌, 東京エレクトロン ソフトウェア・テクノロジーズ株式会社
+      gravatar:
+    - name:
+        en: Yusuke Suzuki
+        ja: すずきゆうすけ
+      affiliation:
+        en: Ruby Sapporo, bizoon Inc. Sapporo Suzuki Yusuke Office
+        ja: Ruby札幌, ビズーン株式会社, 札幌鈴木祐亮事務所
+      gravatar: bd5ab9f0d5930b68360ad04f93770340
+    - name:
+        en: "H.Hiro/Maraigue (@h_hiro_)"
+        ja: "H.Hiro/Maraigue (@h_hiro_)"
+      affiliation:
+        en: Ruby Sapporo
+        ja: Ruby札幌
+      gravatar: cbf54602ce97c802e423cf003eda27a7
+    - name:
+        en: "niku (@niku_name)"
+        ja: "にく (@niku_name)"
+      affiliation:
+        en: Ruby Sapporo
+        ja: Ruby札幌
+      gravatar: a51816c3b11f79d9644a46105d513f1b
+    - name:
+        en: USAMI Kenta
+        ja: ぞ (@tadsan)
+      affiliation:
+        en: Ruby Sapporo
+        ja: Ruby札幌、Python札幌
+      gravatar: 03f206bb80a2439f1f27f8714af55838
+    - name:
+        en: miio
+        ja: みぃお
+      affiliation:
+        en: Infiniteloop Co.,Ltd, LOCAL, @ayako119
+        ja: 株式会社インフィニットループ, 一般社団法人LOCAL, @ayako119
+      gravatar: 0ba46a270a113f5f303289240b868233
+    - name:
+        en: IMAZU Asami
+        ja: いまづあさみ
+      affiliation:
+        en:
+        ja:
+      gravatar: c4661e356b1ea4bc77bce3aaf9426bc6
+    - name:
+        en: Dai NAITO (@hachiilcane)
+        ja: Dai NAITO (@hachiilcane)
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: "@onodes"
+        ja:
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: Naoki KODAMA (@volpe_hd28v)
+        ja: 小玉直樹 (@volpe_hd28v)
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: "@adzuki34"
+        ja:
+      affiliation:
+        en:
+        ja:
+      gravatar:
+
+- section:
+    name:
+      en: I18n
+      ja: 国際化
+    people:
+    - name:
+        en: Kazuya NUMATA
+        ja: 沼田 一哉
+      affiliation:
+        en: ESTCOSMO Co.,Ltd., LOCAL, @kaznum
+        ja: 株式会社エストコスモ, 一般社団法人LOCAL, @kaznum
+      gravatar: fbcf9ed09205a5093069f0a2ccccfdf8
+    - name:
+        en: "@kuppi Kumi Takahashi MITANI"
+        ja: 三谷 公美
+      affiliation:
+        en: LOCAL
+        ja: 一般社団法人LOCAL
+      gravatar: 7570b7418f99ca48c36ca5236b8847c8
+    - name:
+        en: Paul McMahon
+        ja: ポール・マクマホン
+      affiliation:
+        en: Mobalean LLC, Tokyo Rubyist Meetup, @pwim
+        ja: 合同会社モバリーン, Tokyo Rubyist Meetup, @pwim
+      gravatar: dd24adb5a3a430fed83a33ed552fe1b5
+    - name:
+        en: Asako TANIGUCHI
+        ja: 谷口 朝子
+      affiliation:
+        en:
+        ja:
+      gravatar:
+
+- section:
+    name:
+      en: Designer
+      ja: デザイナー
+    people:
+    - name:
+        en: Mayuko SEKIYA
+        ja: 関谷 繭子
+      affiliation:
+        en: "@mayuco / Enishi Tech Inc."
+        ja: "@mayuco / 株式会社えにしテック"
+      gravatar: 00575484b5d4489619bfc52e9775ee3b
+
+- section:
+    name:
+      en: KaigiFreaks Networking Squad
+      ja: "KaigiFreaksネットワーク班"
+    people:
+    - name:
+        en: KOIWA Hidekazu
+        ja: 小岩秀和
+      affiliation:
+        en: "LOCAL, ESTCOSMO Co.,Ltd., 88nite, @koiwa"
+        ja: "一般社団法人LOCAL、株式会社エストコスモ、88nite, @koiwa"
+      gravatar: 256838377ddbe600e85d8f446aae224d
+    - name:
+        en: SASAKI Daisuke
+        ja: 佐々木 大輔
+      affiliation:
+        en: LOCAL, OpenSource, Inc., @smokeymonkey
+        ja: 一般社団法人LOCAL, 株式会社オープンソース, @smokeymonkey
+      gravatar: 164a161443835d8479c19d33241cab2a
+
+- section:
+    name:
+      en: KaigiFreaks Streaming Squad
+      ja: "KaigiFreaks録画配信班"
+    people:
+    - name:
+        en: "Norio SUZUKI"
+        ja: "鈴木則夫"
+      affiliation:
+        en: "@suzuki / KaigiFreaks"
+        ja: "@suzuki / KaigiFreaks"
+      gravatar: 8e528456ff66ec543952daa815353a01
+
+#- section:
+#    name:
+#      en: "KaigiFreaks::ReportTeam"
+#      ja: "KaigiFreaksレポート班"
+#    people:
