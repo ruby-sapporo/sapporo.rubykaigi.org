@@ -4,7 +4,7 @@
 
 This directory is for managing the timetable data for [Sappro RubyKaigi 2012][sprk2012].
 
-If there is an error or revision required for your presentation, please change the master data and issue a pull request.
+If there is an error or revision required for your presentation, please change the master data and issue a pull request (Commit only your .yml file. Do not include generated htmls).
 Once merged, it will be reflected on [Sappro RubyKaigi 2012][sprk2012].
 
 The master data can be found under `2012/_schedule/presentations/`, where it is under a file with the same number as the presentation [pull request][sprk2012-cfp].
@@ -32,7 +32,8 @@ $ jekyll --server
 ## 日本語
 このディレクトリは、[Sappro RubyKaigi 2012][sprk2012] のタイムテーブル出力用のデータ管理ディレクトリです。
 
-発表内容の記載に誤りがあった場合や訂正を行いたい場合は、マスタデータを修正し pull request をお送りください。
+発表内容の記載に誤りがあった場合や訂正を行いたい場合は、マスタデータを修正し pull request をお送りください
+(コミットには .yml ファイルだけを含めてください。生成された HTML は含めないでください)。
 随時マージし、[Sappro RubyKaigi 2012][sprk2012] に反映いたします。
 
 マスタデータは `2012/_schedule/presentations/` に配置してあり、
