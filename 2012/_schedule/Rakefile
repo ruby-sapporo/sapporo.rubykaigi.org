@@ -1,0 +1,53 @@
+require 'fileutils'
+
+require_relative './lib/sprk2012_schedule'
+
+task :default => :render
+task :render => %w(clean render:grid render:detail)
+
+SPRK2012::Localizable.add_locale(Dir[File.join(File.dirname(__FILE__), 'locales', '*.yml')])
+
+namespace :render do
+  SPRK2012::Presentation.resource_path(File.join(File.dirname(__FILE__), 'presentations'))
+  SPRK2012::Renderable.template_root(File.expand_path('../lib/templates', __FILE__))
+
+  desc 'Render grid'
+  task :grid do
+    grid = SPRK2012::Views::Grid.new(SPRK2012::Presentation.all)
+
+    SPRK2012::Localizable::SUPPORTED_LOCALES.each do |locale|
+      I18n.locale = locale
+      basedir = File.join(File.dirname(__FILE__), '..', locale)
+      FileUtils.mkdir_p(basedir)
+      filename = 'schedule.html'
+      filepath = File.join(basedir, filename)
+      File.open(filepath, 'w') do |f|
+        f << grid.render
+      end
+      printf "render %s\n", filepath
+    end
+  end
+
+  desc 'Render detail'
+  task :detail do
+    SPRK2012::Presentation.all.each do |presentation|
+      detail = SPRK2012::Views::Detail.new(presentation)
+      SPRK2012::Localizable::SUPPORTED_LOCALES.each do |locale|
+        I18n.locale = locale
+        basedir = File.join(File.dirname(__FILE__), '..', locale, 'schedule', 'details')
+        FileUtils.mkdir_p(basedir)
+        filename = '%s.html' % [presentation.id]
+        filepath = File.join(basedir, filename)
+        File.open(filepath, 'w') do |f|
+          f << detail.render
+        end
+        printf "render %s\n", filepath
+      end
+    end
+  end
+end
+
+require 'rake/clean'
+SPRK2012::Localizable::SUPPORTED_LOCALES.each do |locale|
+  CLEAN.include(File.join(File.dirname(__FILE__), '..', locale, 'schedule'))
+end

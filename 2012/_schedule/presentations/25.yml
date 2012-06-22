@@ -1,0 +1,33 @@
+---
+presenters:
+  - name:
+      ja:
+      en: David Calavera
+    affiliation:
+      ja:
+      en: GitHub
+    bio:
+      ja:
+      en: |-
+        David works as a developer at GitHub making GitHub Enterprise even more
+        awesome. When he's not coding you can probably find him improving his circus
+        skills around the beautiful San Francisco.
+    github: calavera
+title:
+  ja:
+  en: Scaling in the unknown, how GitHub develops, ships and supports GitHub Enterprise.
+abstract:
+  ja:
+  en: |-
+    Everybody talks about scaling up, but, what happens when you have to scale
+    down? or even, what happens when you don't control where your product is
+    being deployed? In this session we'll talk about how we build GitHub
+    enterprise, keeping every feature that you can find in github.com, and how
+    we ship it ready to deploy on your infrastructure.
+references:
+  ja:
+  en: |-
+    - [My twitter](https://twitter.com/#!/calavera)
+    - [My GitHub](https://github.com/calavera)
+    - [Past talk slides](http://www.slideshare.net/calavera/presentations)
+language: English
