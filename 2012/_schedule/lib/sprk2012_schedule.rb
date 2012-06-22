@@ -62,7 +62,7 @@ module SPRK2012
     end
 
     def render
-      ERB.new(File.read(self.class.template_path)).result(binding)
+      ERB.new(File.read(self.class.template_path), nil, '-').result(binding)
     end
 
     def md(text)
