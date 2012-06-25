@@ -187,15 +187,15 @@ aside {
   aside #lang {
     margin: 0; }
     aside #lang li {
-      background: #ee3706;
+      background: #d4d7da;
       width: 100px;
       margin: 0 0 0 5px;
       text-align: center;
       display: inline-block; }
       aside #lang li:hover {
-        background: #f15f38; }
+        background: #e9ebec; }
       aside #lang li a {
-        color: #d4d7da;
+        color: #293745;
         text-decoration: none; }
 
 footer {
@@ -282,20 +282,16 @@ ul.listMarkRed {
   #news h2 {
     margin-top: 10px;
     color: #eff6f6; }
+  #news p {
+    line-height: 150%; }
+  #news hr {
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px dashed #fff; }
 
 #news p,
 #information p {
   color: #fcd7cd; }
-
-#cfp {
-  font-size: 90%;
-  margin-bottom: 30px; }
-  #cfp p {
-    line-height: 150%;
-    margin: 7px; }
-  #cfp hr {
-    border: 0;
-    border-bottom: 1px dashed #fff; }
 
 #sponsorLogos {
   clear: both; }
