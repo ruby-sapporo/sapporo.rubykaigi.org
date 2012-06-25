@@ -13,7 +13,7 @@ presenters:
         [A reviewer of Chad Fowler's "Rails Recipes" book](https://twitter.com/chadfowler/status/145511656833822721)
         The founder of [Asakusa.rb](https://asakusa.rubyist.net/)
         The author of gem libraries e.g. [kaminari](https://github.com/amatsuda/kaminari), [erd](https://github.com/amatsuda/erd)
-        A Rails mania.
+        A Rails maniac.
     github: amatsuda
 title:
   ja: Rails3レシピブック外伝
@@ -24,7 +24,7 @@ abstract:
     読者の健康を損なうおそれがあるため掲載を見送らざるをえなかった裏レシピ、闇レシピ、超絶レシピの数々を惜しげもなくご紹介します。
     毎日のアプリケーション開発の糧になる基本レシピについてはこのトークでは触れません。書籍のほうをご覧ください。
   en: |-
-    This talk will be purely technical Rails talk, introducing tons of esoteric and enigmatic tips, tricks, and hacks.
+    This talk will be a purely technical Rails talk, introducing tons of esoteric and enigmatic tips, tricks, and hacks.
 references:
   ja:
   en: |-
