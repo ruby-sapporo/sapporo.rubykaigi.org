@@ -8,7 +8,10 @@ presenters:
       ja: ニューサウスウェールズ大学 (UNSW)
       en: University of New South Wales.
     bio:
-      ja: バイオインフォマティクスの科学者
+      ja: |-
+        ニューサウスウェールズ大学(シドニー)のバイオインフォマティクスの研究者。Encyclopedia of Life関係の仕事でRailsを使ったことをきっかけにRubyと出会い、今はPlain Old Ruby Objectsを専門としている。
+
+        これまでに、Wikipediaのリンクを辿っていくと最終的に"Philosophy"のページに 到達するという事象についての分析や、Heckleというテストライブラリのフォークなどを行ってきた。RubyKaigi 2011では、ランダムなRubyコードを生成することでRubyの様々な処理系におけるバグを見つけるためのSmall Eigen Colliderというライブラリについて発表した。
       en: |-
         Andrew Grimm is a bioinformatician at the University of New South Wales in Sydney, Australia. He came across Ruby while using Rails at his previous job associated with the Encyclopedia of Life, but now specialises in Plain Old Ruby Objects.
 
