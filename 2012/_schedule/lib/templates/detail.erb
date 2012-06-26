@@ -2,7 +2,7 @@
 <%= Views::Metadata.new.render %>
 ---
 <dl>
-  <% presentation.presenters.each do |presenter| %>
+  <%- presentation.presenters.each do |presenter| -%>
     <dt>github</dt>
     <dd>
       <img src="http://usericons.relucks.org/github/<%= presenter.github %>" width="20" height="20" />
@@ -14,7 +14,7 @@
     <dd><%= md(presenter.affiliation) %></dd>
     <dt><%= t(:bio) %></dt>
     <dd><%= md(presenter.bio) %></dd>
-  <% end %>
+  <%- end -%>
   <dt><%= t(:title) %></dt>
   <dd><%= presentation.title %></dd>
   <dt><%= t(:abstract) %></dt>
