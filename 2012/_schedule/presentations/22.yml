@@ -8,7 +8,12 @@ presenters:
       ja: ニューサウスウェールズ大学 (UNSW)
       en: University of New South Wales.
     bio:
-      ja: バイオインフォマティクスの科学者
+      ja: |-
+        ニューサウスウェールズ大学(シドニー)のバイオインフォマティクスの研究者。Encyclopedia of Life関係の仕事でRailsを使ったことをきっかけにRubyと出会い、今はPlain Old Ruby Objectsを専門としている。
+
+        これまでに、Wikipediaのリンクを辿っていくと最終的に"Philosophy"のページに 到達するという事象についての分析や、Heckleというテストライブラリのフォークなどを行ってきた。RubyKaigi 2011では、ランダムなRubyコードを生成することでRubyの様々な処理系におけるバグを見つけるためのSmall Eigen Colliderというライブラリについて発表した。
+
+        東京でのRubyKaigi2011のために日本語を学び始めた。その講座を始めて数週間でやめてしまう かと思っていたけれども、やめることはなかった。
       en: |-
         Andrew Grimm is a bioinformatician at the University of New South Wales in Sydney, Australia. He came across Ruby while using Rails at his previous job associated with the Encyclopedia of Life, but now specialises in Plain Old Ruby Objects.
 
@@ -19,7 +24,10 @@ title:
   ja:
   en: Japanese - a programmer's language
 abstract:
-  ja:
+  ja: |-
+      一見したところ、日本語は非常に奇妙な困難な言語のように西洋人に見えます。しかし、多くの点で、それは他のヨーロッパ言語よりも英語に似ており、その語彙量の増加は英語から来ています。さらにこれまでに私は、日本語は非常に論理的な言語であると感じました。
+
+      30分では日本語の全体を伝えるのに十分ではありませんが、私は日本語とはどんなものかということを垣間見ていただき、その興味深い特異性の一部を示したいと考えています。和製英語（wasei - eigo）、"Daniel-san"の "さん"などの敬語 (honorifics)、なぜ「おてあらい」や「おてら」の両方が同じ"お"の接頭辞（美化語 bikago）を付けるのか、などを取り扱う予定です。
   en: |-
     At first glance, Japanese looks to westerners like a very strange and difficult language. However, in many ways it is more similar to English than other European languages are, and an increasing amount of its vocabulary comes from English. In addition, so far I have found Japanese to be a very logical language.
 
