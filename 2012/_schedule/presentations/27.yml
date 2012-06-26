@@ -4,11 +4,11 @@ presenters:
       ja:
       en: Shota Fukumori (sora_h)
     affiliation:
-      ja:  クックパッド株式会社 && team.pasra.tk
+      ja: クックパッド株式会社 && team.pasra.tk
       en: COOKPAD Inc. && team.pasra.tk
     bio:
-      ja: 中卒フリーター兼 Ruby コミッター ("偽りの厨二")。そらはーとも呼ばれています。クックパッド株式会社でアルバイトしてます。
-      en: A Ruby committer. Coding part-time at COOKPAD Inc. (of course I code socially)
+      ja: 中卒フリーター兼 Ruby コミッター ("偽りの厨二")。そらはーと呼ばれています。クックパッド株式会社でアルバイトしてます。 http://sorah.jp/
+      en: A Ruby committer. Coding part-time at COOKPAD Inc. (of course I code socially) http://sorah.jp/
     github: sorah
 title:
   ja: Social Coding をはじめよう
@@ -69,7 +69,12 @@ abstract:
 
     (Talk will be in Japanese, but slides will be provided in English.)
 references:
-  ja:
+  ja: |-
+    * [GitHub](https://github.com/sorah)
+    * [プロフィール](http://sorah.jp/)
+    * [ブログ](http://blog.sorah.jp/)
+    * [twitter](https://twitter.com/sora_h)
+    * [過去のスライド](http://speakerdeck.com/u/sorah)
   en: |-
     * [My GitHub](https://github.com/sorah)
     * [My website](http://sorah.jp/)
