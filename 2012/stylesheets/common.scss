@@ -289,16 +289,16 @@ aside {
   #lang {
     margin: 0;
     li {
-      background: #ee3706;
+      background: #d4d7da;
       width: 100px;
       margin: 0 0 0 5px;
       text-align: center;
       display: inline-block;
       &:hover {
-        background: #f15f38;
+        background: #e9ebec;
       }
       a {
-        color: #d4d7da;
+	      color: #293745;
         text-decoration: none;
       }
     }
@@ -319,7 +319,7 @@ footer {
     float: right;
     #lang
       li {
-      background: #293745;
+        background: #293745;
         &:hover {
           background: #3e4b57;
         }
@@ -406,24 +406,19 @@ ul.listMarkRed {
     margin-top: 10px;
     color: #eff6f6;
   }
+  p {
+    line-height: 150%;
+  }
+  hr {
+    margin: 20px 0;
+    border: 0;
+    border-bottom: 1px dashed #fff;
+  }
 }
 
 #news p,
 #information p {
 	color: #fcd7cd;
-}
-
-#cfp {
-  font-size: 90%;
-  margin-bottom: 30px;
-  p {
-    line-height: 150%;
-    margin: 7px;
-  }
-  hr {
-    border: 0;
-    border-bottom: 1px dashed #fff;
-  }
 }
 
 #sponsorLogos {
