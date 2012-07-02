@@ -173,6 +173,13 @@
         en:
         ja:
       gravatar:
+    - name:
+        en: "@hokkai7go"
+        ja:
+      affiliation:
+        en: Ruby Sapporo, Asakusa.rb, yokohama.rb
+        ja: Ruby札幌,Asakusa.rb, yokohama.rb
+      gravatar: 527e2af04bd5b212b479840016274cdb
 
 - section:
     name:
