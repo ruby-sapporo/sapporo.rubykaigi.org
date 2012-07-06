@@ -31,7 +31,7 @@ def render_entries(entries)
   entries.each do |entry|
     date = entry[:time].strftime('%Y-%m-%d')
     rendered << <<-EOS
-<li>#{date} <a href="#{entry[:link]}">#{CGI.escapeHTML(entry[:title])}</a></li>
+<li>#{date} <a href="#{entry[:link]}" target="_blank">#{CGI.escapeHTML(entry[:title])}</a></li>
     EOS
   end
   rendered
