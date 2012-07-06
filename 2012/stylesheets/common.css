@@ -275,6 +275,10 @@ ul.listMarkRed {
       font-weight: bold;
       color: #ee3706;
       margin: 10px; }
+  #information #nikki {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px dotted #fff; }
 
 #news {
   padding: 9px;
