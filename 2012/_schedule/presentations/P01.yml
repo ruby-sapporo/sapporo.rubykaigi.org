@@ -1,22 +1,31 @@
 ---
 presenters:
   - name:
-      ja:
-      en:
+      ja: 高橋 健一
+      en: Kenichi TAKAHASHI
     affiliation:
-      ja:
-      en:
+      ja: (株) 永和システムマネジメント
+      en: Eiwa System Management, Inc.
     bio:
-      ja:
-      en:
+      ja: (株) 永和システムマネジメントで働くRubyプログラマ。RubyとGentooとタイル型Window Managerが好き。
+      en: Ruby programmer at Eiwa System Management, Inc. He loves Ruby, Gentoo Linux and Tiling Window Manager.
     github:
 title:
-  ja:
-  en:
+  ja: ふつうのソーシャルコーディング
+  en: Social Coding, It's Not Unusual in ESM
 abstract:
-  ja:
+  ja: |-
+    日本Ruby会議2010の[Head First ふつうのシステム開発](http://rubykaigi.org/2010/ja/events/23)から2年が経ち、私たちの開発を支える環境も変化してきました。
+
+    GitHubのOrganizationアカウントを導入してソーシャルコーディングを実践し、CIサーバとしてTravis CIを利用するようになりました。また、アプリケーションの運用環境としてHerokuの採用も積極的に行っています。
+    一方で、Pivotal TrackerやIRCなど、2年前と変わらず利用し続けているものもあります。
+
+    これらのサービス、ツールを組み合わせた、永和システムマネジメントの受託開発プロジェクトにおける「ふつうのシステム開発」の姿を紹介します。
   en:
 references:
   ja:
-  en:
+  en: |-
+    - [My website](http://shu-cream.net)
+    - [My twitter](https://twitter.com/#!/kenchan)
+    - [Past talk slides](https://speakerdeck.com/u/kenchan)
 language:
