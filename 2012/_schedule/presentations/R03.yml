@@ -1,18 +1,18 @@
 ---
 presenters:
   - name:
-      ja:
-      en:
+      ja: 平野和順
+      en: Kazunori Hirano
     affiliation:
-      ja:
-      en:
+      ja: 日本マイクロソフト株式会社　デベロッパー＆プラットフォーム統括本部　業務執行役員 クラウドプラットフォーム推進担当
+      en: Microsoft Japan, Developer & Platform, Cloud Strategy & Evangelism
     bio:
       ja:
       en:
     github:
 title:
-  ja:
-  en:
+  ja: RubyやLinux対応を積極的に進めるマイクロソフトのオープンソース<3(LOVE)戦略
+  en: Microsoft's Openness Vision and Strategy. MS <3 (Loves) Ruby and Linux!
 abstract:
   ja:
   en:
