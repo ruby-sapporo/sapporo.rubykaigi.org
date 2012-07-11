@@ -1,22 +1,26 @@
 ---
 presenters:
   - name:
-      ja:
-      en:
+      ja: 井原 正博
+      en: Masahiro Ihara
     affiliation:
-      ja:
-      en:
+      ja: クックパッド株式会社
+      en: COOKPAD Inc.
     bio:
       ja:
       en:
-    github:
+    github: ihara2525
 title:
-  ja:
-  en:
+  ja: クックパッドのつくりかた
+  en: How to create COOKPAD
 abstract:
   ja:
   en:
 references:
   ja:
-  en:
+  en: |-
+    - [My website](http://ihara2525.tumblr.com/)
+    - [My twitter](https://twitter.com/ihara2525)
+    - [Past talk slides](https://speakerdeck.com/u/ihara)
+    - [Past talk video](http://www.confreaks.com/videos/874-railsconf2012-how-rails-helps-make-cooking-more-fun-in-japan)
 language:
