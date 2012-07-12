@@ -14,8 +14,18 @@ title:
   ja: RubyやLinux対応を積極的に進めるマイクロソフトのオープンソース<3(LOVE)戦略
   en: Microsoft's Openness Vision and Strategy. MS <3 (Loves) Ruby and Linux!
 abstract:
-  ja:
-  en:
+  ja: |-
+    WindowsAzureがLinuxやnode.jsをサポートするなど、
+    オープンソース対応を積極的に推進するマイクロソフト。
+    Ruby on Railsもその例外ではありません。本セッションでは、
+    急速なオープン化の背景にあるマイクロソフトのクラウド戦略を語ると共に、
+    大幅な機能拡張を果たしたWindows Azureの最新情報、
+    および最適化されたRuby実行環境である「能楽堂」をご紹介します。
+  en: |-
+    Microsoft which WindowsAzure supports Linux and node.js, and promotes open source correspondence positively.
+    Ruby on Rails is not the exception, too.
+    This session introduce you the latest information of Windows Azure, about a cloud strategy of Microsoft in the background of rapid opening by this session, and carried out large Extensions.
+    And also introduce "NougakuDo" which is optimized Ruby practice environment.
 references:
   ja:
   en:
