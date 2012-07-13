@@ -238,6 +238,12 @@ footer {
     padding: 0 0 0 20px;
     background: url(../images/commonBackToTop.png) no-repeat left top; }
 
+.backToSchedule {
+  text-align: right; }
+  .backToSchedule a {
+    padding: 0 0 0 25px;
+    background: url(../images/commonLinkMark.png) no-repeat left top; }
+
 .linkMark {
   padding: 0 0 0 25px;
   background: url(../images/commonLinkMark.png) no-repeat left top; }
@@ -375,6 +381,14 @@ ul.listMarkRed {
   padding: 2px;
   color: #fdebe6;
   background: #ee3706; }
+
+#scheduleDetail .title {
+  font-weight: bold;
+  font-size: 120%; }
+#scheduleDetail .myReferences ul {
+  padding-left: 10px; }
+#scheduleDetail .myReferences li:before {
+  content: "» "; }
 
 /*--- forAttendees ----------------------------------------------*/
 #access iframe {

@@ -350,6 +350,13 @@ footer {
   }
 }
 
+.backToSchedule {
+  text-align: right;
+  a {
+    @include commonLinkMark;
+  }
+}
+
 .linkMark {
   @include commonLinkMark;
 }
@@ -532,6 +539,21 @@ ul.listMarkRed {
     padding: 2px;
     color: #fdebe6;
     background: #ee3706;
+  }
+}
+
+#scheduleDetail {
+  .title {
+    font-weight: bold;
+    font-size: 120%;
+  }
+  .myReferences {
+    ul {
+      padding-left: 10px;
+    }
+    li:before {
+      content: "» ";
+    }
   }
 }
 
