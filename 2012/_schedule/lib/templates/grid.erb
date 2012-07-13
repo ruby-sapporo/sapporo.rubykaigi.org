@@ -3,7 +3,15 @@
 ---
 
 <article id="schedule14">
+  <h2><%= I18n.locale == :ja ? "9月14日(金)" : "Fri 14 Sep" %></h2>
   <table>
+    <colgroup span="1" class="time"></colgroup>
+    <colgroup span="2" class="session"></colgroup>
+    <!--<tr>
+      <th>-</th>
+      <th>-</th>
+      <th>-</th>
+      </tr>-->
     <tr>
       <td>13:30-13:45</td>
       <td>Opening</td>
@@ -12,7 +20,7 @@
     <tr>
       <td>13:45-14:15</td>
       <td>
-        Sponsor session 1
+        <span class="event">Sponsor session 1</span><br>
         <%= render_cell('R01') %>
       </td>
       <td>-</td>
@@ -20,7 +28,7 @@
     <tr>
       <td>14:30-15:00</td>
       <td>
-        Sponsor session 2
+        <span class="event">Sponsor session 2</span><br>
         <%= render_cell('R03') %>
       </td>
       <td>-</td>
@@ -28,7 +36,7 @@
     <tr>
       <td>15:00-15:30</td>
       <td>
-        Sponsor session 3
+        <span class="event">Sponsor session 3</span><br>
         <%= render_cell('P01') %>
       </td>
       <td>-</td>
@@ -36,7 +44,7 @@
     <tr>
       <td>15:45-16:15</td>
       <td>
-        Sponsor session 4
+        <span class="event">Sponsor session 4</span><br>
         <%= render_cell('R02') %>
       </td>
       <td>-</td>
@@ -57,10 +65,19 @@
       <td><%= render_cell(8) %></td>
     </tr>
   </table>
+  <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>
 
 <article id="schedule15">
+  <h2><%= I18n.locale == :ja ? "9月15日(土)" : "Sat 15 Sep" %></h2>
   <table>
+    <colgroup span="1" class="time"></colgroup>
+    <colgroup span="2" class="session"></colgroup>
+    <!--<tr>
+      <th>-</th>
+      <th>-</th>
+      <th>-</th>
+      </tr>-->
     <tr>
       <td>10:00-10:30</td>
       <td><%= render_cell(75) %></td>
@@ -73,12 +90,12 @@
     </tr>
     <tr>
       <td>11:15-12:00</td>
-      <td>Keynote</td>
+      <td><span class="event">Keynote</span></td>
       <td>-</td>
     </tr>
     <tr>
       <td>13:00-14:15</td>
-      <td>Keynote</td>
+      <td><span class="event">Keynote</span></td>
       <td>-</td>
     </tr>
     </tr>
@@ -104,14 +121,23 @@
     </tr>
     <tr>
       <td>17:15-18:15</td>
-      <td>Lightning Talk</td>
+      <td><span class="event">Lightning Talk</span></td>
       <td>-</td>
     </tr>
   </table>
+  <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>
 
 <article id="schedule16">
+  <h2><%= I18n.locale == :ja ? "9月16日(日)" : "Sun 16 Sep" %></h2>
   <table>
+    <colgroup span="1" class="time"></colgroup>
+    <colgroup span="2" class="session"></colgroup>
+    <!--<tr>
+      <th>-</th>
+      <th>-</th>
+      <th>-</th>
+      </tr>-->
     <tr>
       <td>10:00-10:30</td>
       <td><%= render_cell(13) %></td>
@@ -124,12 +150,12 @@
     </tr>
     <tr>
       <td>11:15-12:00</td>
-      <td>Keynote</td>
+      <td><span class="event">Keynote</span></td>
       <td>-</td>
     </tr>
     <tr>
       <td>13:30-13:45</td>
-      <td>Ruby Kaja</td>
+      <td><span class="event">Ruby Kaja</span></td>
       <td>-</td>
     </tr>
     <tr>
@@ -168,8 +194,9 @@
       <td><%= render_cell(70) %></td>
     </tr>
     <tr>
-      <td>18:15-</td>
+      <td>18:15-18:30</td>
       <td>Closing</td>
       <td>-</td>
   </table>
+  <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>

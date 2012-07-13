@@ -69,17 +69,17 @@ strong {
 
 table {
   border-collapse: collapse;
-  border: 1px solid #edcfd1; }
+  border: 1px solid #535F6A; }
 
 table tr,
 table tr th,
 table tr td {
   padding: 10px;
-  border: 1px solid #edcfd1;
+  border: 1px solid #535F6A;
   border-collapse: collapse; }
 
 th {
-  background: #edcfd1; }
+  background: #d4d7da; }
 
 /*--- id, class ----------------------------------------------*/
 p.btn a {
@@ -350,6 +350,31 @@ ul.listMarkRed {
   color: #d4d7da; }
 #sponsors #additional li {
   display: inline-block; }
+
+/*--- Schedule ----------------------------------------------*/
+#schedule14 table,
+#schedule15 table,
+#schedule16 table {
+  width: 100%; }
+#schedule14 .title,
+#schedule15 .title,
+#schedule16 .title {
+  font-weight: bold; }
+#schedule14 .time,
+#schedule15 .time,
+#schedule16 .time {
+  width: 20%;
+  text-align: center; }
+#schedule14 .session,
+#schedule15 .session,
+#schedule16 .session {
+  width: 40%; }
+#schedule14 .event,
+#schedule15 .event,
+#schedule16 .event {
+  padding: 2px;
+  color: #fdebe6;
+  background: #ee3706; }
 
 /*--- forAttendees ----------------------------------------------*/
 #access iframe {
