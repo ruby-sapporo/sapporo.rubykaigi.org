@@ -276,6 +276,152 @@
         ja: "@suzuki / KaigiFreaks"
       gravatar: 8e528456ff66ec543952daa815353a01
 
+- section:
+    name:
+      en: Volunteers
+      ja: 当日スタッフ
+    people:
+    - name:
+        en: Yuka Sato
+        ja: さとうゆか
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: Makoto Horita
+        ja: ほりたまこと
+      affiliation:
+        en: RubySapporo
+        ja: Ruby札幌
+      gravatar:
+    - name:
+        en: Shuji Watanabe
+        ja: わたなべしゅうじ
+      affiliation:
+        en: SapporoJava
+        ja: 札幌Javaコミュニティ
+      gravatar: 567d0ea11d8d0fd89032aa4b77163ba2
+    - name:
+        en: Yuki Torii
+        ja: とりいゆき
+      affiliation:
+        en: everyleaf.com
+        ja: 株式会社万葉
+      gravatar:
+    - name:
+        en: Koichi Tanaka
+        ja: たなかこういち
+      affiliation:
+        en: everyleaf.com
+        ja: 株式会社万葉
+      gravatar:
+    - name:
+        en: Tsuyoshi Yamamoto
+        ja: やまもとつよし
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: Yuta Kurotaki
+        ja: くろたきゆうた
+      affiliation:
+        en: paperboy&co., Inc.
+        ja: 株式会社paperboy&co.
+      gravatar: 0b2426ff15397042caa863cc7965c091
+    - name:
+        en: Takayuki Shiroma
+        ja: 城間隆行
+      affiliation:
+        en: Hokkaido University
+        ja: 北海道大学
+      gravatar:
+    - name:
+        en: "@akiinyo"
+        ja: "@akiinyo"
+      affiliation:
+        en: Eiwa System Management
+        ja: 永和システムマネジメント
+      gravatar: 3b5e67c408cb8df70e1c0d0e9ac6d0a0
+    - name:
+        en: Tatsuo Sakurai
+        ja: さくらいたつお
+      affiliation:
+        en: everyleaf.com
+        ja: 株式会社万葉
+      gravatar: 092404bdf9897eba9ab16e61f56592db
+    - name:
+        en: Kana Masui
+        ja: ますいかな
+      affiliation:
+        en:
+        ja:
+      gravatar: db5d44e5bbb0a2a87c37f56eaf5eef4c
+    - name:
+        en: Mayoto Yoshida
+        ja: よしだまよと
+      affiliation:
+        en: paperboy&co., Inc.
+        ja: 株式会社paperboy&co.
+      gravatar: 34989ad49370793a4ff6261d0f8c2256
+    - name:
+        en: Makoto Kono(@ginkouno)
+        ja: 河野 誠(@ginkouno)
+      affiliation:
+        en: www.feedforce.jp / Tokyu.rb
+        ja: 株式会社フィードフォース / Tokyu.rb
+      gravatar:
+    - name:
+        en: sakag(@sakag1975)
+        ja: さかじ(@sakag1975)
+      affiliation:
+        en: LOCAL
+        ja: 一般社団法人LOCAL
+      gravatar: eb6b0333feea0a70542cd99ece0a7fef
+    - name:
+        en: Yusuke Takahashi
+        ja: たかはしゆうすけ
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: Koichi Fukuda
+        ja: ふくだこういち
+      affiliation:
+        en: freruProductive
+        ja: フレールプロダクティヴ
+      gravatar: 9bfe4f8d212ec29e568aa76c6b8d6540
+    - name:
+        en: Shyouhei Urabe
+        ja: うらべしょうへい
+      affiliation:
+        en: Network Applied Communication Laboratory
+        ja: ネットワーク応用通信研究所
+      gravatar: 9d2f78236e45a335301ba1195026105d
+    - name:
+        en: Alex Kelly
+        ja: アレックス・ケリー
+      affiliation:
+        en: es-planning, Inc.
+        ja: 株式会社エスプランニング
+      gravatar: b2b6ce75007ab8e462687069d7098475
+    - name:
+        en: Mikko Polojarvi
+        ja: ミッコ・ポロヤルヴィ
+      affiliation:
+        en: Hokkaido University Graduate School of Information Science and Technology
+        ja: 北海道大学 大学院情報科学研究科
+      gravatar:
+    - name:
+        en: Yoko Harada
+        ja: はらだようこ
+      affiliation:
+        en:
+        ja:
+      gravatar:
+
 #- section:
 #    name:
 #      en: "KaigiFreaks::ReportTeam"
