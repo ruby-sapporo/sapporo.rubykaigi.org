@@ -91,54 +91,12 @@
         ja: Ruby札幌, 株式会社アンタス
       gravatar: 90ca7b0e9a01cecd7d32a365f2749b38
     - name:
-        en: Tsuyoshi Maehana
-        ja: 前鼻毅
-      affiliation:
-        en: Ruby Sapporo, RICOH IT SOLUTIONS
-        ja: Ruby札幌, RICOH IT SOLUTIONS
-      gravatar: e8ebe7d4ec09c5dd77ee064706836f23
-    - name:
         en: Atsushi Suzuki
         ja: 鈴木淳司
       affiliation:
         en: Agile Sapporo, Tokyo Electron Software Technorogies Ltd.
         ja: アジャイル札幌, 東京エレクトロン ソフトウェア・テクノロジーズ株式会社
       gravatar:
-    - name:
-        en: Yusuke Suzuki
-        ja: すずきゆうすけ
-      affiliation:
-        en: Ruby Sapporo, bizoon Inc. Sapporo Suzuki Yusuke Office
-        ja: Ruby札幌, ビズーン株式会社, 札幌鈴木祐亮事務所
-      gravatar: bd5ab9f0d5930b68360ad04f93770340
-    - name:
-        en: "H.Hiro/Maraigue (@h_hiro_)"
-        ja: "H.Hiro/Maraigue (@h_hiro_)"
-      affiliation:
-        en: Ruby Sapporo
-        ja: Ruby札幌
-      gravatar: cbf54602ce97c802e423cf003eda27a7
-    - name:
-        en: "niku (@niku_name)"
-        ja: "にく (@niku_name)"
-      affiliation:
-        en: Ruby Sapporo
-        ja: Ruby札幌
-      gravatar: a51816c3b11f79d9644a46105d513f1b
-    - name:
-        en: USAMI Kenta
-        ja: ぞ (@tadsan)
-      affiliation:
-        en: Ruby Sapporo
-        ja: Ruby札幌、Python札幌
-      gravatar: 03f206bb80a2439f1f27f8714af55838
-    - name:
-        en: miio
-        ja: みぃお
-      affiliation:
-        en: Infiniteloop Co.,Ltd, LOCAL, @ayako119
-        ja: 株式会社インフィニットループ, 一般社団法人LOCAL, @ayako119
-      gravatar: 0ba46a270a113f5f303289240b868233
     - name:
         en: IMAZU Asami
         ja: いまづあさみ
@@ -149,20 +107,6 @@
     - name:
         en: Dai NAITO (@hachiilcane)
         ja: Dai NAITO (@hachiilcane)
-      affiliation:
-        en:
-        ja:
-      gravatar:
-    - name:
-        en: "@onodes"
-        ja:
-      affiliation:
-        en:
-        ja:
-      gravatar:
-    - name:
-        en: Naoki KODAMA (@volpe_hd28v)
-        ja: 小玉直樹 (@volpe_hd28v)
       affiliation:
         en:
         ja:
@@ -195,20 +139,6 @@
         en:
         ja:
       gravatar: 0a0c8a69bb68d8873741e8643d89a7d9
-    - name:
-        en: "@hokkai7go"
-        ja:
-      affiliation:
-        en: Ruby Sapporo, Asakusa.rb, yokohama.rb
-        ja: Ruby札幌,Asakusa.rb, yokohama.rb
-      gravatar: 527e2af04bd5b212b479840016274cdb
-    - name:
-        en: Chihiro Naganuma(@onjiro_mohyahya)
-        ja: ながぬまちひろ(@onjiro_mohyahya)
-      affiliation:
-        en:
-        ja:
-      gravatar: 5ef6830ba49122369dd79c658d08d82a
 
 - section:
     name:
@@ -292,6 +222,89 @@
 
 - section:
     name:
+      en: KaigiFreaks Report Squad
+      ja: KaigiFreaksレポート班
+    people:
+    - name:
+        en: Tsuyoshi MAEHANA
+        ja: 前鼻毅
+      affiliation:
+        en: Ruby Sapporo, RICOH IT SOLUTIONS
+        ja: Ruby札幌, RICOH IT SOLUTIONS
+      gravatar: e8ebe7d4ec09c5dd77ee064706836f23
+    - name:
+        en: "niku (@niku_name)"
+        ja: "にく (@niku_name)"
+      affiliation:
+        en: Ruby Sapporo
+        ja: Ruby札幌
+      gravatar: a51816c3b11f79d9644a46105d513f1b
+    - name:
+        en: "H.Hiro/Maraigue (@h_hiro_)"
+        ja: "H.Hiro/Maraigue (@h_hiro_)"
+      affiliation:
+        en: Ruby Sapporo
+        ja: Ruby札幌
+      gravatar: cbf54602ce97c802e423cf003eda27a7
+    - name:
+        en: "@onodes"
+        ja:
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: Yusuke Suzuki
+        ja: すずきゆうすけ
+      affiliation:
+        en: Ruby Sapporo, bizoon Inc. Sapporo Suzuki Yusuke Office
+        ja: Ruby札幌, ビズーン株式会社, 札幌鈴木祐亮事務所
+      gravatar: bd5ab9f0d5930b68360ad04f93770340
+    - name:
+        en: Naoki KODAMA (@volpe_hd28v)
+        ja: 小玉直樹 (@volpe_hd28v)
+      affiliation:
+        en:
+        ja:
+      gravatar:
+    - name:
+        en: USAMI Kenta
+        ja: ぞ (@tadsan)
+      affiliation:
+        en: Ruby Sapporo
+        ja: Ruby札幌、Python札幌
+      gravatar: 03f206bb80a2439f1f27f8714af55838
+    - name:
+        en: miio
+        ja: みぃお
+      affiliation:
+        en: Infiniteloop Co.,Ltd, LOCAL, @ayako119
+        ja: 株式会社インフィニットループ, 一般社団法人LOCAL, @ayako119
+      gravatar: 0ba46a270a113f5f303289240b868233
+    - name:
+        en: "@hokkai7go"
+        ja:
+      affiliation:
+        en: Ruby Sapporo, Asakusa.rb, yokohama.rb
+        ja: Ruby札幌,Asakusa.rb, yokohama.rb
+      gravatar: 527e2af04bd5b212b479840016274cdb
+    - name:
+        en: Chihiro Naganuma(@onjiro_mohyahya)
+        ja: ながぬまちひろ(@onjiro_mohyahya)
+      affiliation:
+        en:
+        ja:
+      gravatar: 5ef6830ba49122369dd79c658d08d82a
+    - name:
+        en: Shuji Watanabe
+        ja: わたなべしゅうじ
+      affiliation:
+        en: SapporoJava
+        ja: 札幌Javaコミュニティ
+      gravatar: 567d0ea11d8d0fd89032aa4b77163ba2
+
+- section:
+    name:
       en: Volunteers
       ja: 当日スタッフ
     people:
@@ -309,13 +322,6 @@
         en: RubySapporo
         ja: Ruby札幌
       gravatar:
-    - name:
-        en: Shuji Watanabe
-        ja: わたなべしゅうじ
-      affiliation:
-        en: SapporoJava
-        ja: 札幌Javaコミュニティ
-      gravatar: 567d0ea11d8d0fd89032aa4b77163ba2
     - name:
         en: Yuki Torii
         ja: とりいゆき
