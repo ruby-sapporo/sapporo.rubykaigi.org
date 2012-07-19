@@ -152,19 +152,19 @@ strong {
 
 table {
   border-collapse: collapse;
-  border: 1px solid #edcfd1;
+  border: 1px solid #535F6A;
 }
 
 table tr,
 table tr th,
 table tr td {
   padding: 10px;
-  border: 1px solid #edcfd1;
+  border: 1px solid #535F6A;
   border-collapse: collapse;
 }
 
 th {
-  background: #edcfd1;
+  background: #d4d7da;
 }
 
 /*--- id, class ----------------------------------------------*/
@@ -350,6 +350,13 @@ footer {
   }
 }
 
+.backToSchedule {
+  text-align: right;
+  a {
+    @include commonLinkMark;
+  }
+}
+
 .linkMark {
   @include commonLinkMark;
 }
@@ -506,6 +513,46 @@ ul.listMarkRed {
     }
     li {
       display: inline-block;
+    }
+  }
+}
+
+/*--- Schedule ----------------------------------------------*/
+
+#schedule14,
+#schedule15,
+#schedule16 {
+  table {
+    width: 100%;
+  }
+  .title {
+    font-weight: bold;
+  }
+  .time {
+    width: 20%;
+    text-align: center;
+  }
+  .session {
+    width: 40%;
+  }
+  .event {
+    padding: 2px;
+    color: #fdebe6;
+    background: #ee3706;
+  }
+}
+
+#scheduleDetail {
+  .title {
+    font-weight: bold;
+    font-size: 120%;
+  }
+  .myReferences {
+    ul {
+      padding-left: 10px;
+    }
+    li:before {
+      content: "» ";
     }
   }
 }
