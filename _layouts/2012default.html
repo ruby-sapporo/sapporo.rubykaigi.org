@@ -14,7 +14,7 @@ site_name: "Sapporo RubyKaigi 2012 (札幌Ruby会議2012)"
 <meta content='Mon, 04 Dec 1999 21:29:02 GMT' http-equiv='Expires'>
 <meta content='no-cache' http-equiv='Pragma'>
 <meta content='no-cache' http-equiv='cache-control'>
-<meta property='og:title' content='{{ page.site_name }}'>
+<meta property='og:title' content='{% if page.og_title %}{{ page.og_title }} | {% elsif page.title %}{{ page.title }} | {% endif %}{{ page.site_name }}'>
 <meta property='og:site_name' content='{{ page.site_name }}'>
 <meta property='og:url' content='{{ page.base_url }}/{{ page.locale }}/'>
 <meta property='og:type' content='activity'>
