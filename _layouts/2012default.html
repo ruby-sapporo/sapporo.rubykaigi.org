@@ -1,5 +1,4 @@
 ---
-base_url: "http://sapporo.rubykaigi.org/2012"
 site_name: "Sapporo RubyKaigi 2012 (札幌Ruby会議2012)"
 ---
 <!DOCTYPE HTML>
@@ -16,9 +15,9 @@ site_name: "Sapporo RubyKaigi 2012 (札幌Ruby会議2012)"
 <meta content='no-cache' http-equiv='cache-control'>
 <meta property='og:title' content='{% if page.og_title %}{{ page.og_title }} | {% elsif page.title %}{{ page.title }} | {% endif %}{{ page.site_name }}'>
 <meta property='og:site_name' content='{{ page.site_name }}'>
-<meta property='og:url' content='{{ page.base_url }}/{{ page.locale }}/'>
+<meta property='og:url' content='{{ site.base_url }}{{ page.url }}'>
 <meta property='og:type' content='activity'>
-<meta property='og:image' content='{{ page.base_url }}/images/ogImage.png'>
+<meta property='og:image' content='{{ site.base_url }}/2012/images/ogImage.png'>
 <meta content='札幌Ruby会議2012の公式サイト。' name='description'>
 <meta content='札幌 Ruby sprk2012' name='keywords'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,7 +83,7 @@ $(document).ready(function() {
         <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
       </div>
       <div class='socialBtn'>
-        <g:plusone size="tall" href="{{ page.base_url }}"></g:plusone>
+        <g:plusone size="tall" href="{{ page.base_url }}/2012"></g:plusone>
         <script type="text/javascript">
           (function() {
             var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -94,7 +93,7 @@ $(document).ready(function() {
         </script>
       </div>
       <div class='socialBtn'>
-        <a class='twitter-share-button' data-count='vertical' data-url='{{ page.base_url }}' href='http://twitter.com/share'>Tweet</a>
+        <a class='twitter-share-button' data-count='vertical' data-url='{{ page.base_url }}/2012' href='http://twitter.com/share'>Tweet</a>
         <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
       </div>
     </aside>
