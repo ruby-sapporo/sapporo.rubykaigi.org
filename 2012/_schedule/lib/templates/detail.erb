@@ -1,7 +1,6 @@
 ---
-layout: 2012content
 title: Detail
-locale: <%= I18n.locale %>
+<%= Views::Metadata.new.render %>
 ---
 <article id="scheduleDetail">
   <%- presentation.presenters.each do |presenter| -%>
