@@ -400,10 +400,21 @@ ul.listMarkRed {
   padding: 10px; }
 
 /*--- goodies ----------------------------------------------*/
+#tshirts .deadline,
+#badges .deadline {
+  display: inline-block;
+  font-weight: bold;
+  margin: 7px 0;
+  padding: 5px;
+  color: #d4d7da;
+  background: #293745; }
+#tshirts ul,
 #badges ul {
   padding: 0; }
+#tshirts li,
 #badges li {
   white-space: nowrap; }
+  #tshirts li a,
   #badges li a {
     padding: 0 0 0 25px;
     background: url(../images/commonLinkMark.png) no-repeat left top; }
