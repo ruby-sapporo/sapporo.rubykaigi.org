@@ -575,7 +575,16 @@ ul.listMarkRed {
 
 /*--- goodies ----------------------------------------------*/
 
+#tshirts,
 #badges {
+  .deadline {
+    display: inline-block;
+    font-weight: bold;
+    margin: 7px 0;
+    padding: 5px;
+    color: #d4d7da;
+    background: #293745;
+  }
   ul {
     padding: 0;
   }
