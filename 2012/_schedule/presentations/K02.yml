@@ -1,0 +1,24 @@
+---
+presenters:
+  - name:
+      ja: まつもとゆきひろ
+      en: Yukihiro "Matz" Matsumoto
+    affiliation:
+      ja: ネットワーク応用通信研究所、楽天、Heroku, グルーブノーツ
+      en: Network Applied Communication Laboratory Ltd., Rakuten,Inc., Heroku, Groovenauts, inc.
+    bio:
+      ja: 張本人。ええ、みんな私のせいです
+      en: The one who started everything.
+    github: matz
+title:
+  ja: One size does not fit all
+  en: One size does not fit all
+abstract:
+  ja: |-
+    多様性は善である
+  en: |-
+    Ruby is not just for Web. CRuby is not only Ruby.
+references:
+  ja:
+  en:
+language: Japanese
