@@ -4,18 +4,34 @@ presenters:
       ja: 井原 正博
       en: Masahiro Ihara
     affiliation:
-      ja: クックパッド株式会社
-      en: COOKPAD Inc.
+      ja: |-
+        クックパッド株式会社 人事部副部長兼エンジニア統括マネージャー
+      en: |-
+        HR Assistant Manager & VP Engineering at COOKPAD Inc.
     bio:
-      ja:
-      en:
+      ja: |-
+        ヤフー株式会社にてソーシャルメディア関連サービスやプラットフォームの開発に従事。2010年1月より、「世の中の役に立つために技術を使いたい」という思いからクックパッドに参加。技術部長を務めたのち、2012年5月より現職。クックパッドでの目標は、「世界で一番技術を活かして世の中を幸せにできる会社をつくる」。
+      en: |-
+        I was engaged in the development of platforms and services related to
+        social media at Yahoo! Japan Corporation. I began participating in
+        Cookpad in January 2010 out of a desire to "use technology to real
+        life." I came to my present post in May 2012 after serving as head of
+        the technology department. My goal of Cookpad is "to create a company
+        that can bring happiness to real people by capitalizing on the
+        world's best technology.
     github: ihara2525
 title:
   ja: クックパッドのつくりかた
   en: How to create COOKPAD
 abstract:
-  ja:
-  en:
+  ja: |-
+    日本の20～30代女性の約半数が利用すると言われる[cookpad.com](http://cookpad.com)、それを運用するクックパッド株式会社では、40人以上のエンジニアが日々サービス開発を行っています。本セッションでは、その開発を裏側で支えるための組織づくりに関する考え方や、数々の取り組みについてお話いたします。
+  en: |-
+    [Cookpad.com](http://cookpad.com) is currently being used by half of all Japanese women in
+    there 20-30s. COOKPAD Inc. is operating the website and over 40
+    engineers are developing the service every day. I'll talk about the
+    ways of thinking and many challenages for building organization to
+    support them.
 references:
   ja:
   en: |-
