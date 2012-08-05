@@ -115,13 +115,17 @@ module SPRK2012
         @presentations = presentations
       end
 
-      # TODO Remove duplication
-      def render_cell(presentation_id)
+      def render_line(presentation_id)
         presentation = presentations.detect {|presentation| presentation.id == presentation_id.to_s }
         throw 'ID=%s is not found.' % presentation_id unless presentation
-        cell = Cell.new(presentation)
-        cell.render
+        line = Line.new(presentation)
+        line.render
       end
+    end
+
+    # イベント詳細行
+    class Line < Detail
+      partial!
     end
 
     # ページのデータ
