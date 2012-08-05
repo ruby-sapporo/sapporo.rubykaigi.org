@@ -17,14 +17,16 @@ og_title: |-
   <h3><%= t(:bio) %></h3>
   <%= md(presenter.bio) %>
   <h3>GitHub</h3>
+    <% if presenter.github -%>
+      <%- [*presenter.github].each do |github| -%>
     <p>
-    <%- if presenter.github -%>
-    <a href="https://github.com/<%= presenter.github %>"><%= presenter.github %></a><br>
-      <img src="http://usericons.relucks.org/github/<%= presenter.github %>" width="120" height="120">
+      <a href="https://github.com/<%= github %>"><%= github %></a><br>
+      <img src="http://usericons.relucks.org/github/<%= github %>" width="120" height="120">
+    </p>
+      <%- end -%>
     <%- else -%>
       -
     <%- end -%>
-    </p>
   <%- end -%>
   <h3><%= t(:presentation_language) %></h3>
   <p><%= presentation.language %></p>
