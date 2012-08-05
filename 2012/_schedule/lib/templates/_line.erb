@@ -1,3 +1,4 @@
 <a href="<%= '/2012/%s/schedule/details/%s.html' % [I18n.locale, presentation.id] %>">
-<%= presentation.title %>
+  <%= presentation.title %>
 </a>
+(<%= presentation.presenters.map(&:name).join('/') %>)
