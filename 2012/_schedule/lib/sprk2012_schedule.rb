@@ -105,6 +105,29 @@ module SPRK2012
       partial!
     end
 
+    # LTページ
+    class LT
+      include Renderable
+
+      attr_reader :presentations
+
+      def initialize(presentations)
+        @presentations = presentations
+      end
+
+      def render_line(presentation_id)
+        presentation = presentations.detect {|presentation| presentation.id == presentation_id.to_s }
+        throw 'ID=%s is not found.' % presentation_id unless presentation
+        line = Line.new(presentation)
+        line.render
+      end
+    end
+
+    # イベント詳細行
+    class Line < Detail
+      partial!
+    end
+
     # ページのデータ
     class Metadata
       include Renderable
