@@ -4,11 +4,10 @@
     <script>
       (function() {
         var locale = (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2);
-        if (locale == "ja"){
-          location.href = "/2012/ja/";
-        } else {
-          location.href = "/2012/en/";
+        if (locale != 'ja') {
+          locale = 'en';
         }
+        location.href = '/2012/' + locale;
       })();
     </script>
   </head>
