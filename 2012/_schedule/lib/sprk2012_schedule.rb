@@ -1,6 +1,7 @@
 require 'erb'
 require 'yaml'
 require 'forwardable'
+require 'cgi'
 
 require 'i18n'
 require 'redcarpet'
@@ -68,6 +69,10 @@ module SPRK2012
     def md(text)
       markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true)
       markdown.render(text.to_s)
+    end
+
+    def escape_html(str)
+      CGI.escape_html(str.to_s)
     end
   end
 
