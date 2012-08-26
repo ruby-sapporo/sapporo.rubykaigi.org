@@ -5,11 +5,11 @@ og_title: |-
 <%= Views::Metadata.new.render %>
 ---
 <article id="scheduleDetail">
-  <%- presentation.presenters.each do |presenter| -%>
   <h2><%= t(:title) %></h2>
   <p class="title"><%= presentation.title %></p>
   <h2><%= t(:abstract) %></h2>
   <%= md(presentation.abstract) %>
+  <%- presentation.presenters.each do |presenter| -%>
   <h2><%= t(:speaker) %></h2>
   <p><%= presenter.name %></p>
   <h3><%= t(:affiliation) %></h3>
