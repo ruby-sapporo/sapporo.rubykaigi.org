@@ -17,7 +17,7 @@ title:
     プログラミングとRubyと家族と自分
 abstract:
   en: |-
-    Why are you programming? For what? Programmers have their own reasons to make softwares. I believe that Programming should not be only for work, money and hobby. I would like to talk frankly about producing my own software by myself and my experience of programming which made our life happier directly throught development of an account book web application with Ruby on Rails.
+    Why are you programming? For what? Programmers have their own reasons to make software. I believe that programming should not be only for work, or as a hobby. I would like to talk frankly about producing my own software by myself and my experience of programming which made our life happier directly through development of an account book web application with Ruby on Rails.
   ja: |-
     なぜ、何のためにプログラミングをするのか。ひとそれぞれ理由はたくさんあり、仕事やお金や趣味のためとは限りません。Ruby on Railsによる家計簿ソフトウェアの開発を通して、自分が使うソフトウェアを自分でプロデュースすること、プログラミングがいかに直接的に家族と自分をハッピーにしてくれたかについて、率直に話したいと思います。
 language: Japanese
