@@ -6,13 +6,15 @@ localmenu: <%=
     [
       '<li><a href="#schedule14">9月14日(金)</a></li>',
       '<li><a href="#schedule15">9月15日(土)</a></li>',
-      '<li><a href="#schedule16">9月16日(日)</a></li>'
+      '<li><a href="#schedule16">9月16日(日)</a></li>',
+      '<li><a href="#subEvent">サブイベント</a></li>'
     ].join
   else
     [
       '<li><a href="#schedule14">Fri 14 Sep</a></li>',
       '<li><a href="#schedule15">Sat 15 Sep</a></li>',
-      '<li><a href="#schedule16">Sun 16 Sep</a></li>'
+      '<li><a href="#schedule16">Sun 16 Sep</a></li>',
+      '<li><a href="#subEvent">Sub Event</a></li>'
     ].join
   end
 %>
@@ -81,6 +83,9 @@ localmenu: <%=
       <td><%= render_cell(8) %></td>
     </tr>
   </table>
+  <ul class="linkMark">
+    <li><a href="#subEvent1">try(:english)</a></li>
+  </ul>
   <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>
 
@@ -225,5 +230,29 @@ localmenu: <%=
       <td>Closing</td>
       <td>-</td>
   </table>
+  <p class="backToTop"><a href="#">Back to Top</a></p>
+</article>
+<article id="subEvent">
+      <%- if I18n.locale == :ja -%>
+        <h2>サブイベント</h2>
+        <h3 id="subEvent1">try(:english)</h3>
+        <p>All English!! 英語のネイティブスピーカーと英語で話しをしてみよう！お昼時にピザ付きのミートアップです。英語２、日本語２程度の小さなグループで、ガイジンRubyistsと直に話しをしてみよう。俄然、英語がんばるぞ、という気持ちになります。ぜひ、ご参加ください。</p>
+        <ul class="listMarkRed">
+          <li>9月16日（日）12:00 - 13:30</li>
+          <li>Doorkeeperにて参加募集（現在作成中）</li>
+          <li><a href="http://yokolet.github.com/2012/08/22/try-english/">http://yokolet.github.com/2012/08/22/try-english/</a></li>
+          <li>原田 洋子 - JRuby/Nokogiriコミッタ。Ruby Hero 2012.</li>
+        </ul>
+      <%- else -%>
+        <h2>Sub Event</h2>
+        <h3 id="subEvent1">try(:english)</h3>
+        <p></p>
+        <ul class="listMarkRed">
+          <li>Sunday, September 16 12:00 - 1:30pm</li>
+          <li>Application site will open at Doorkeeper (not ready yet)</li>
+          <li><a href="http://yokolet.github.com/2012/08/22/try-english/">http://yokolet.github.com/2012/08/22/try-english/</a></li>
+          <li>Yoko Harada - JRuby/Nokogiri Committer. Ruby Hero 2012.</li>
+        </ul>
+      <%- end -%>
   <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>
