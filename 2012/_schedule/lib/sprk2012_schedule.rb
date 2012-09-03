@@ -115,6 +115,17 @@ module SPRK2012
       def sub_event(sub_event_id)
         sub_events.detect {|sub_event| sub_event.id == sub_event_id.to_s }
       end
+
+      def link_to_sub_event(sub_event_id)
+        sub_event = sub_event(sub_event_id)
+        return nil if sub_event.title.nil?
+
+        '<a href="#%s">%s</a>' % [sub_event_html_id(sub_event_id), sub_event.title]
+      end
+
+      def sub_event_html_id(sub_event_id)
+        'subEvent%s' % sub_event_id
+      end
     end
 
     # イベント詳細

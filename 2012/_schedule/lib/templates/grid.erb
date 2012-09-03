@@ -228,7 +228,7 @@ localmenu: <%=
       <td>-</td>
   </table>
   <ul class="linkMark">
-    <li><a href="#subEvent1">try(:english)</a></li>
+    <li><%= link_to_sub_event(1) %></li>
   </ul>
   <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>
@@ -237,7 +237,7 @@ localmenu: <%=
   <%- %w(2 1).each do |sub_event_id| -%>
     <%- sub_event = sub_event(sub_event_id) -%>
     <%- next if sub_event.title.nil? %>
-    <h3 id="<%= 'subEvent%s' % sub_event.id %>"><%= sub_event.title %></h3>
+    <h3 id="<%= sub_event_html_id(sub_event_id) %>"><%= sub_event.title %></h3>
     <%= md(sub_event.abstract) %>
     <ul class="listMarkRed">
       <%- sub_event.others.each do |other| -%>
