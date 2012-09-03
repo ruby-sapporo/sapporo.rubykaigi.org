@@ -76,21 +76,44 @@ module SPRK2012
     end
   end
 
+  # yaml からのロード機能
+  module YamlLoader
+    def load_from_yaml(id, file_path)
+      new(id, YAML.load_file(file_path))
+    end
+
+    def resource_path(root)
+      @resource_path = root
+    end
+
+    def all
+      Dir[File.join(@resource_path, '*.yml')].map do |path|
+        id = File.basename(path, '.*')
+        load_from_yaml(id, path)
+      end
+    end
+  end
+
   module Views
     # イベントテーブル
     class Grid
       include Renderable
 
-      attr_reader :presentations
+      attr_reader :presentations, :sub_events
 
-      def initialize(presentations)
+      def initialize(presentations, sub_events)
         @presentations = presentations
+        @sub_events = sub_events
       end
 
       def render_cell(presentation_id)
         presentation = presentations.detect {|presentation| presentation.id == presentation_id.to_s }
         cell = Cell.new(presentation)
         cell.render
+      end
+
+      def sub_event(sub_event_id)
+        sub_events.detect {|sub_event| sub_event.id == sub_event_id.to_s }
       end
     end
 
@@ -143,24 +166,10 @@ module SPRK2012
 
   # 発表
   class Presentation
+    extend YamlLoader
     include Localizable
 
     attr_localized :data, %w(title abstract references)
-
-    def self.load_from_yaml(id, file_path)
-      new(id, YAML.load_file(file_path))
-    end
-
-    def self.resource_path(root)
-      @@resource_path = root
-    end
-
-    def self.all
-      Dir[File.join(@@resource_path, '*.yml')].map do |path|
-        id = File.basename(path, '.*')
-        load_from_yaml(id, path)
-      end
-    end
 
     attr_reader :id, :data
 
@@ -192,6 +201,21 @@ module SPRK2012
 
     def github
       data['github']
+    end
+  end
+
+  # サブイベント
+  class SubEvent
+    extend YamlLoader
+    include Localizable
+
+    attr_localized :data, %w(title abstract others)
+
+    attr_reader :id, :data
+
+    def initialize(id, data)
+      @id = id
+      @data = data
     end
   end
 

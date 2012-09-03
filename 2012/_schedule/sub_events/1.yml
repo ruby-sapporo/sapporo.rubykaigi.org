@@ -1,0 +1,26 @@
+---
+title:
+  ja: |-
+    try(:english)
+  en: |-
+    try(:english)
+abstract:
+  ja: |-
+    All English!! 英語のネイティブスピーカーと英語で話しをしてみよう！お昼時にピザ付きのミートアップです。英語２、日本語２程度の小さなグループで、ガイジンRubyistsと直に話しをしてみよう。俄然、英語がんばるぞ、という気持ちになります。ぜひ、ご参加ください。
+  en: |-
+    All English!! If your first language is English, talk to Japanese Rubyists in English!
+    The meetup will be on lunch time with pizza for free.
+    Attendees will make a small group of 3-5, about two English and two Japanese Rubyists.
+    Encourage Japanese Rubyists to study English for better communication by talking with "Gai-Jin" (you).
+    Join us!
+others:
+  ja:
+    - 9月16日（日）12:00 - 13:30
+    - http://tryenglish.doorkeeper.jp/events/1650 にて参加者募集
+    - http://yokolet.github.com/2012/08/22/try-english/
+    - 原田 洋子 - JRuby/Nokogiriコミッタ。Ruby Hero 2012.
+  en:
+    - Sunday, September 16 12:00 - 1:30pm
+    - Apply at http://tryenglish.doorkeeper.jp/events/1650
+    - http://yokolet.github.com/2012/08/22/try-english/
+    - Yoko Harada - JRuby/Nokogiri Committer. Ruby Hero 2012.

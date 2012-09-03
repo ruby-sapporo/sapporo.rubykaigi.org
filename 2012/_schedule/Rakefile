@@ -6,6 +6,7 @@ task :default => :render
 task :render => %w(clean render:grid render:detail render:lt)
 
 SPRK2012::Presentation.resource_path(File.join(File.dirname(__FILE__), 'presentations'))
+SPRK2012::SubEvent.resource_path(File.join(File.dirname(__FILE__), 'sub_events'))
 SPRK2012::Localizable.add_locale(Dir[File.join(File.dirname(__FILE__), 'locales', '*.yml')])
 
 namespace :render do
@@ -13,7 +14,7 @@ namespace :render do
 
   desc 'Render grid'
   task :grid do
-    grid = SPRK2012::Views::Grid.new(SPRK2012::Presentation.all)
+    grid = SPRK2012::Views::Grid.new(SPRK2012::Presentation.all, SPRK2012::SubEvent.all)
 
     SPRK2012::Localizable::SUPPORTED_LOCALES.each do |locale|
       I18n.locale = locale
