@@ -1,4 +1,7 @@
 ja:
+  date_9_14: 9月14日(金)
+  date_9_15: 9月15日(土)
+  date_9_16: 9月16日(日)
   speaker: 講演者
   affiliation: 所属
   bio: プロフィール
@@ -6,3 +9,4 @@ ja:
   abstract: 概要
   presentation_language: 発表言語
   references: 参照
+  sub_event: サブイベント

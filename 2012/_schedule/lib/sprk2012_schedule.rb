@@ -1,6 +1,7 @@
 require 'erb'
 require 'yaml'
 require 'forwardable'
+require 'cgi'
 
 require 'i18n'
 require 'redcarpet'
@@ -69,6 +70,28 @@ module SPRK2012
       markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true)
       markdown.render(text.to_s)
     end
+
+    def escape_html(str)
+      CGI.escape_html(str.to_s)
+    end
+  end
+
+  # yaml からのロード機能
+  module YamlLoader
+    def load_from_yaml(id, file_path)
+      new(id, YAML.load_file(file_path))
+    end
+
+    def resource_path(root)
+      @resource_path = root
+    end
+
+    def all
+      Dir[File.join(@resource_path, '*.yml')].map do |path|
+        id = File.basename(path, '.*')
+        load_from_yaml(id, path)
+      end
+    end
   end
 
   module Views
@@ -76,16 +99,32 @@ module SPRK2012
     class Grid
       include Renderable
 
-      attr_reader :presentations
+      attr_reader :presentations, :sub_events
 
-      def initialize(presentations)
+      def initialize(presentations, sub_events)
         @presentations = presentations
+        @sub_events = sub_events
       end
 
       def render_cell(presentation_id)
         presentation = presentations.detect {|presentation| presentation.id == presentation_id.to_s }
         cell = Cell.new(presentation)
         cell.render
+      end
+
+      def sub_event(sub_event_id)
+        sub_events.detect {|sub_event| sub_event.id == sub_event_id.to_s }
+      end
+
+      def link_to_sub_event(sub_event_id)
+        sub_event = sub_event(sub_event_id)
+        return nil if sub_event.title.nil?
+
+        '<a href="#%s">%s</a>' % [sub_event_html_id(sub_event_id), sub_event.title]
+      end
+
+      def sub_event_html_id(sub_event_id)
+        'subEvent%s' % sub_event_id
       end
     end
 
@@ -105,6 +144,29 @@ module SPRK2012
       partial!
     end
 
+    # LTページ
+    class LT
+      include Renderable
+
+      attr_reader :presentations
+
+      def initialize(presentations)
+        @presentations = presentations
+      end
+
+      def render_line(presentation_id)
+        presentation = presentations.detect {|presentation| presentation.id == presentation_id.to_s }
+        throw 'ID=%s is not found.' % presentation_id unless presentation
+        line = Line.new(presentation)
+        line.render
+      end
+    end
+
+    # イベント詳細行
+    class Line < Detail
+      partial!
+    end
+
     # ページのデータ
     class Metadata
       include Renderable
@@ -115,24 +177,10 @@ module SPRK2012
 
   # 発表
   class Presentation
+    extend YamlLoader
     include Localizable
 
     attr_localized :data, %w(title abstract references)
-
-    def self.load_from_yaml(id, file_path)
-      new(id, YAML.load_file(file_path))
-    end
-
-    def self.resource_path(root)
-      @@resource_path = root
-    end
-
-    def self.all
-      Dir[File.join(@@resource_path, '*.yml')].map do |path|
-        id = File.basename(path, '.*')
-        load_from_yaml(id, path)
-      end
-    end
 
     attr_reader :id, :data
 
@@ -164,6 +212,21 @@ module SPRK2012
 
     def github
       data['github']
+    end
+  end
+
+  # サブイベント
+  class SubEvent
+    extend YamlLoader
+    include Localizable
+
+    attr_localized :data, %w(title abstract others)
+
+    attr_reader :id, :data
+
+    def initialize(id, data)
+      @id = id
+      @data = data
     end
   end
 

@@ -1,4 +1,7 @@
 en:
+  date_9_14: Fri 14 Sep
+  date_9_15: Sat 15 Sep
+  date_9_16: Sun 16 Sep
   speaker: Speaker
   affiliation: Affiliation
   bio: Bio
@@ -6,3 +9,4 @@ en:
   abstract: Abstract
   presentation_language: Language
   references: References
+  sub_event: Sub Event

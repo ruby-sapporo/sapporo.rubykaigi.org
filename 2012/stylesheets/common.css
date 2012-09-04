@@ -382,6 +382,12 @@ ul.listMarkRed {
   color: #fdebe6;
   background: #ee3706; }
 
+#lightningTalk li {
+  margin-bottom: 10px; }
+  #lightningTalk li a {
+    padding: 0 0 0 25px;
+    background: url(../images/commonLinkMark.png) no-repeat left top; }
+
 #scheduleDetail .title {
   font-weight: bold;
   font-size: 120%; }
