@@ -1,15 +1,22 @@
 ---
 title:
   ja: またやる出張版toRuby（併設The dRuby Bookサイン会）
-  en:
+  en: Again toRuby branch-off edition
 abstract:
   ja: |-
     RubyKaigi2011でこっそり開催した、ゆRubyのtoRubyパートをまたやります。ゆるくぬるい勉強会です。島根大の講義のテキストを使った「dRuby体験」です。一台のマシンで複数のプログラムが協調しあう様子を体験します。PC必要。ない人はとなりの席の人とペアプロしよう
-  en:
+  en: |-
+    Let's study Japanese with using dRuby!
 others:
   ja:
     - 9月15日（土）12:30 - 13:20 (12:00-12:30は会場でランチ)
     - http://atnd.org/events/31976 にてご登録ください。
+    - http://d.hatena.ne.jp/m_seki/20120902
     - 関将俊(@m_seki) - toRuby70回くらい皆勤賞の咳です。
     - 米澤慎(@vestige_) - toRubyで安定の司会業の米澤です。
-  en: []
+  en:
+    - Saturday, September 15 12:30 - 13:20pm (12:00 - 12:30pm is lunch time)
+    - Apply at http://atnd.org/events/31976
+    - http://d.hatena.ne.jp/m_seki/20120902
+    - Masatoshi Seki(@m_seki) - Author of dRuby, Rinda, ERB and The dRuby Book.
+    - Makoto Yonezawa(@vestige_) - The skilled moderator of 'toRuby'.
