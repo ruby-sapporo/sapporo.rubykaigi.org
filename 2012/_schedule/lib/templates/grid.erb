@@ -74,6 +74,9 @@ localmenu: <%=
       <td><%= render_cell(8) %></td>
     </tr>
   </table>
+  <ul class="linkMark">
+    <li><%= link_to_sub_event(4) %></li>
+  </ul>
   <p class="backToTop"><a href="#">Back to Top</a></p>
 </article>
 
@@ -228,7 +231,7 @@ localmenu: <%=
 </article>
 <article id="subEvent">
   <h2><%= t(:sub_event) %></h2>
-  <%- %w(3 2 1).each do |sub_event_id| -%>
+  <%- %w(4 3 2 1).each do |sub_event_id| -%>
     <%- sub_event = sub_event(sub_event_id) -%>
     <%- next if sub_event.title.nil? %>
     <h3 id="<%= sub_event_html_id(sub_event_id) %>"><%= sub_event.title %></h3>
