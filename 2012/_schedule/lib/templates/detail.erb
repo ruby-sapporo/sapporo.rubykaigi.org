@@ -5,7 +5,7 @@ og_title: |-
 <%= Views::Metadata.new.render %>
 ---
 <article id="scheduleDetail">
-  <h2><%= t(:title) %></h2>
+  <h2><%= t(:title) %><%= '(Canceled)' if presentation.canceled? -%></h2>
   <p class="title"><%= presentation.title %></p>
   <h2><%= t(:abstract) %></h2>
   <%= md(presentation.abstract) %>
