@@ -196,6 +196,10 @@ module SPRK2012
     def language
       data['language']
     end
+
+    def canceled?
+      data['canceled']
+    end
   end
 
   # 発表者
