@@ -197,6 +197,18 @@ module SPRK2012
       data['language']
     end
 
+    def vimeo_id
+      data['vimeo_id']
+    end
+
+    def vimeo_tag
+      %{<iframe src="http://player.vimeo.com/video/#{vimeo_id}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>}
+    end
+
+    def vimeo_exist?
+      !!vimeo_id
+    end
+
     def canceled?
       data['canceled']
     end
