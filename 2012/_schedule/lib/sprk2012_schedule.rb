@@ -197,6 +197,28 @@ module SPRK2012
       data['language']
     end
 
+    def vimeo_exist?
+      !(vimeo_url.nil? || vimeo_url.empty?)
+    end
+
+    def vimeo_url
+      data['vimeo_url']
+    end
+
+    def vimeo_id
+      return nil unless vimeo_exist?
+      matched = %r{\Ahttps?://vimeo\.com/(\d+)/?\z}.match(vimeo_url)
+      if matched
+        matched[1]
+      else
+        raise "Unsupported vimeo_url '%s'" % vimeo_url
+      end
+    end
+
+    def vimeo_tag
+      %{<iframe src="http://player.vimeo.com/video/#{vimeo_id}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>}
+    end
+
     def canceled?
       data['canceled']
     end
