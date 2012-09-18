@@ -7,6 +7,10 @@ title_long: |-
 <article id="scheduleDetail">
   <h2><%= t(:title) %><%= '(Canceled)' if presentation.canceled? -%></h2>
   <p class="title"><%= presentation.title %></p>
+  <%- if presentation.vimeo_exist? -%>
+  <h2><%= t(:video) %></h2>
+    <%= presentation.vimeo_tag %>
+  <%- end -%>
   <h2><%= t(:abstract) %></h2>
   <%= md(presentation.abstract) %>
   <%- presentation.presenters.each do |presenter| -%>
