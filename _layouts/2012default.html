@@ -7,13 +7,13 @@ site_name: "Sapporo RubyKaigi 2012 (札幌Ruby会議2012)"
       xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
 <meta charset="UTF-8">
-<title>{% if page.title %}{{ page.title }} | {% endif %}Sapporo RubyKaigi 2012 (札幌Ruby会議2012)</title>
+<title>{% if page.title_long %}{{ page.title_long }} | {% elsif page.title %}{{ page.title }} | {% endif %}{{ page.site_name }}</title>
 <meta content="NOARCHIVE" name="ROBOTS">
 <meta content="INDEX,FOLLOW" name="ROBOTS">
 <meta content="Mon, 04 Dec 1999 21:29:02 GMT" http-equiv="Expires">
 <meta content="no-cache" http-equiv="Pragma">
 <meta content="no-cache" http-equiv="cache-control">
-<meta property="og:title" content="{% if page.og_title %}{{ page.og_title }} | {% elsif page.title %}{{ page.title }} | {% endif %}{{ page.site_name }}">
+<meta property="og:title" content="{% if page.title_long %}{{ page.title_long }} | {% elsif page.title %}{{ page.title }} | {% endif %}{{ page.site_name }}">
 <meta property="og:site_name" content="{{ page.site_name }}">
 <meta property="og:url" content="{{ site.base_url }}{{ page.url }}">
 <meta property="og:type" content="activity">
