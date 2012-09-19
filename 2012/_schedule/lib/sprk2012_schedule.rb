@@ -216,12 +216,12 @@ module SPRK2012
     end
 
     def slide_tag(width=nil, height=nil)
-      speakerdeck_tag || slideshare_tag(width, height)
+      speakerdeck_tag(width) || slideshare_tag(width, height)
     end
 
-    def speakerdeck_tag
+    def speakerdeck_tag(width)
       return nil unless speakerdeck_id
-      %{<script async class="speakerdeck-embed" data-id="#{speakerdeck_id}" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>}
+      %{<div style="width: #{width}px"><script async class="speakerdeck-embed" data-id="#{speakerdeck_id}" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script></div>}
     end
 
     def slideshare_tag(width, height)
