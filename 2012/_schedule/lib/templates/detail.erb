@@ -11,6 +11,10 @@ title_long: |-
   <h2><%= t(:video) %></h2>
     <%= presentation.vimeo_tag %>
   <%- end -%>
+  <%- if presentation.slide_exist? -%>
+    <h2><%= t(:slide) %></h2>
+    <%= presentation.slide_tag(779, 646) %>
+  <%- end -%>
   <h2><%= t(:abstract) %></h2>
   <%= md(presentation.abstract) %>
   <%- presentation.presenters.each do |presenter| -%>

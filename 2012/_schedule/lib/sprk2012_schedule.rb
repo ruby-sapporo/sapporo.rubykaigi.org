@@ -184,6 +184,12 @@ module SPRK2012
 
     attr_reader :id, :data
 
+    %w(language vimeo_id speakerdeck_id slideshare_id).each do |attr_name|
+      define_method attr_name do
+        data[attr_name]
+      end
+    end
+
     def initialize(id, data)
       @id = id
       @data = data
@@ -191,14 +197,6 @@ module SPRK2012
 
     def presenters
       data['presenters'].map {|presenter_data| Presenter.new(presenter_data) }
-    end
-
-    def language
-      data['language']
-    end
-
-    def vimeo_id
-      data['vimeo_id']
     end
 
     def vimeo_tag
@@ -211,6 +209,26 @@ module SPRK2012
 
     def canceled?
       data['canceled']
+    end
+
+    def slide_exist?
+      !!slide_tag
+    end
+
+    def slide_tag(width=nil, height=nil)
+      speakerdeck_tag || slideshare_tag(width, height)
+    end
+
+    def speakerdeck_tag
+      return nil unless speakerdeck_id
+      %{<script async class="speakerdeck-embed" data-id="#{speakerdeck_id}" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>}
+    end
+
+    def slideshare_tag(width, height)
+      width ||= 427
+      height ||= 356
+      return nil unless slideshare_id
+      %{<iframe src="http://www.slideshare.net/slideshow/embed_code/#{slideshare_id}" width="#{width}" height="#{height}" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>}
     end
   end
 
