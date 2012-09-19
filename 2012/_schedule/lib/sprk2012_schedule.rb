@@ -184,6 +184,12 @@ module SPRK2012
 
     attr_reader :id, :data
 
+    %w(language vimeo_id).each do |attr_name|
+      define_method attr_name do
+        data[attr_name]
+      end
+    end
+
     def initialize(id, data)
       @id = id
       @data = data
@@ -191,14 +197,6 @@ module SPRK2012
 
     def presenters
       data['presenters'].map {|presenter_data| Presenter.new(presenter_data) }
-    end
-
-    def language
-      data['language']
-    end
-
-    def vimeo_id
-      data['vimeo_id']
     end
 
     def vimeo_tag
