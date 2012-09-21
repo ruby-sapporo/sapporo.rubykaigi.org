@@ -10,6 +10,7 @@ presenters:
       ja: ソフトウェア開発者
       en: A software developer.
     github: tricknotes
+    gravatar: dc03a27ae31ba428c560c00c9128cd75
 title:
   ja: コミュニティのある風景。
   en: The development with community.

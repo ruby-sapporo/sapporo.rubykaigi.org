@@ -26,10 +26,10 @@ title_long: |-
   <%= md(presenter.bio) %>
   <h3>GitHub</h3>
     <% if presenter.github -%>
-      <%- [*presenter.github].each do |github| -%>
+      <%- [[*presenter.github].zip([*presenter.gravatar])].each do |(github, gravatar), | -%>
     <p>
       <a href="https://github.com/<%= github %>"><%= github %></a><br>
-      <img src="http://usericons.relucks.org/github/<%= github %>" width="120" height="120">
+      <img src="https://secure.gravatar.com/avatar/<%= gravatar %>?s=140" width="120" height="120">
     </p>
       <%- end -%>
     <%- else -%>

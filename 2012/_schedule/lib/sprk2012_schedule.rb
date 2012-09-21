@@ -252,6 +252,10 @@ module SPRK2012
     def github
       data['github']
     end
+
+    def gravatar
+      data['gravatar']
+    end
   end
 
   # サブイベント

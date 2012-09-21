@@ -4,6 +4,7 @@ presenters:
       en: Kazuhiro NISHIYAMA # required
       ja: 西山和広 # optional
     github: znz # required
+    gravatar: 8e497efbe99e2fa051316337d03624d9 # required
     affiliation:
       en: nadoka developers # required
       ja: # optional

@@ -4,6 +4,7 @@ presenters:
       en: Randy Morgan # required
       ja: モーガン・ランディ
     github: randym # required
+    gravatar: 855975ff404621dc525c72b618d95dcc # required
     affiliation:
       en: reallyenglish # required
       ja: リアル・イングリッシュ・ブロードバンド株式会社

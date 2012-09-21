@@ -13,6 +13,7 @@ presenters:
         he's building gems you've never heard of or contributing to projects you
         have such as Rubinius, Radiant CMS or the Heroku Gem.
     github: daneharrigan
+    gravatar: e8c88afd8e2c1b5efa3b18e7a6ed6722
 title:
   ja:
   en: Finding True Love in Legacy Software

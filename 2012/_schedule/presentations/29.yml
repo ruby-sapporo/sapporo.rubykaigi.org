@@ -10,6 +10,7 @@ presenters:
       ja: GC好き。
       en: a GC lover.
     github: authorNari
+    gravatar: 9f859654c118bcd2f67cc763baf0de7a
 title:
   ja: Rubyによる本気のGC
   en: Serious GC with Ruby

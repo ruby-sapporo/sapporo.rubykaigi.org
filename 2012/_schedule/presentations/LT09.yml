@@ -4,6 +4,7 @@ presenters:
       en: Yohei YASUKAWA # required
       ja: 安川　要平 # optional
     github: yasulab # required
+    gravatar: f9e2dfe1e5e7b40cfe5bafa0c730293d # required
     affiliation:
       en: Freelance Developer # required
       ja: フリーランス # optional

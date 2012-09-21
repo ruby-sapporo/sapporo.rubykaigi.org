@@ -12,6 +12,7 @@ presenters:
       en: |-
         Techinical Manager of [paperboy&co., Inc](http://paperboy.co.jp).
     github: mizzy
+    gravatar: 0d5d8fb9cc4c06f581825f5a61d3f5f1
 title:
   ja: Sqale の裏側
   en: Inside Sqale's Backend

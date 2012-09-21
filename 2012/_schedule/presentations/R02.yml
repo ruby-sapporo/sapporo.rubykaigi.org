@@ -20,6 +20,7 @@ presenters:
         that can bring happiness to real people by capitalizing on the
         world's best technology.
     github: ihara2525
+    gravatar: b16a7b3fa409bb986aef592e21b46ecc
 title:
   ja: クックパッドのつくりかた
   en: How to create COOKPAD
