@@ -3,6 +3,7 @@ presenters:
   - name:
       en: Naoto Takai
     github: takai
+    gravatar: cf7b553387b247d737c60cfceabb2cea
     affiliation:
       en: COOKPAD Inc.
     bio:

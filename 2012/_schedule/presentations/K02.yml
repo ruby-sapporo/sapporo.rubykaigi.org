@@ -10,6 +10,7 @@ presenters:
       ja: 張本人。ええ、みんな私のせいです
       en: The one who started everything.
     github: matz
+    gravatar: 0ec4920185b657a03edf01fff96b4e9b
 title:
   ja: One size does not fit all
   en: One size does not fit all

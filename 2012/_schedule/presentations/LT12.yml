@@ -3,6 +3,7 @@ presenters:
   - name:
       en: Masatoshi SEKI # required
     github: seki # required
+    gravatar: bdcb9af0b168cf425bac2d3772164bee # required
     affiliation:
       en: toRuby # required
     bio:

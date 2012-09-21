@@ -14,6 +14,7 @@ presenters:
         Eric lives in Seattle and is a member of Seattle.rb.  In his spare
         time he practices astronomy and plays video games.
     github: drbrain
+    gravatar: 58479f76374a3ba3c69b9804163f39f4
 title:
   ja:
   en: Writing Ruby for Fun

@@ -12,6 +12,7 @@ presenters:
         Kazuki Tsujimoto is an infrastructure engineer at Nomura Research Institute, Ltd.
         He is also a CRuby committer.
     github: k-tsj
+    gravatar: 303dd57f37d64288bb4f0336332a8882
 title:
   ja:
   en: Pattern Matching in Ruby

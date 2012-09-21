@@ -15,6 +15,7 @@ presenters:
         The author of gem libraries e.g. [kaminari](https://github.com/amatsuda/kaminari), [erd](https://github.com/amatsuda/erd)
         A Rails maniac.
     github: amatsuda
+    gravatar: 76a777ff80f30bd3b390e275cce625bc
 title:
   ja: Rails3レシピブック外伝
   en: Rails3 Recipe Book Gaiden
