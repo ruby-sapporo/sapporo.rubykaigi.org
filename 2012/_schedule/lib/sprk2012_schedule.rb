@@ -184,7 +184,7 @@ module SPRK2012
 
     attr_reader :id, :data
 
-    %w(language vimeo_id speakerdeck_id slideshare_id).each do |attr_name|
+    %w(language vimeo_id speakerdeck_id slideshare_id slide_url).each do |attr_name|
       define_method attr_name do
         data[attr_name]
       end
@@ -215,8 +215,13 @@ module SPRK2012
       !!slide_tag
     end
 
+    def link_to_slide
+      return nil unless slide_url
+      %{<a href="#{slide_url}">#{I18n.t(:slide)}</a>}
+    end
+
     def slide_tag(width=nil, height=nil)
-      speakerdeck_tag(width) || slideshare_tag(width, height)
+      speakerdeck_tag(width) || slideshare_tag(width, height) || link_to_slide
     end
 
     def speakerdeck_tag(width)
