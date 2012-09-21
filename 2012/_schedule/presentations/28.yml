@@ -3,7 +3,6 @@ presenters:
   - name:
       ja:
       en: Dane Harrigan
-      github: daneharrigan
     affiliation:
       ja:
       en:
@@ -13,6 +12,7 @@ presenters:
         Dane Harrigan is an Engineer at Heroku. When he's not coding at work,
         he's building gems you've never heard of or contributing to projects you
         have such as Rubinius, Radiant CMS or the Heroku Gem.
+    github: daneharrigan
 title:
   ja:
   en: Finding True Love in Legacy Software
