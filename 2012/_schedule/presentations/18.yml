@@ -10,6 +10,7 @@ presenters:
       ja: Rubyプログラマ。
       en: A Ruby programmer.
     github: shugo
+    gravatar: 18a797893e6768e048c1d15429f96bb4
 title:
   ja:
   en: Purely functional programming in Ruby

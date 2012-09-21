@@ -3,6 +3,7 @@ presenters:
   - name:
       en: Hibariya # required
     github: hibariya # required
+    gravatar: de0df5acda15a9c7eeb6c28a5e5d4e8e # required
     affiliation:
       en: Eiwa System Management, Inc. # required
     bio:
