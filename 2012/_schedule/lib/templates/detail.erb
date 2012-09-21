@@ -26,7 +26,7 @@ title_long: |-
   <%= md(presenter.bio) %>
   <h3>GitHub</h3>
     <% if presenter.github -%>
-      <%- [[*presenter.github].zip([*presenter.gravatar])].each do |(github, gravatar), | -%>
+      <%- [*presenter.github].zip([*presenter.gravatar]).each do |github, gravatar| -%>
     <p>
       <a href="https://github.com/<%= github %>"><%= github %></a><br>
       <img src="https://secure.gravatar.com/avatar/<%= gravatar %>?s=140" width="120" height="120">
