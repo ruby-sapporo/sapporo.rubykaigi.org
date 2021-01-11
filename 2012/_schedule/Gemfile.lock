@@ -3,7 +3,7 @@ GEM
   specs:
     i18n (0.6.0)
     rake (0.9.2.2)
-    redcarpet (2.1.1)
+    redcarpet (3.5.1)
 
 PLATFORMS
   ruby
